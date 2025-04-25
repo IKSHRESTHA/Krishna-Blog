@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: quarto-dev/quarto-cli-action@v1
+      - uses: quarto-dev/quarto-actions@v2
         with:
           command: render
       - name: Deploy to GitHub Pages
