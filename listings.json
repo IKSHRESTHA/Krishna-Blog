@@ -1,0 +1,52 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/actuarial/index.html",
+      "/posts/data-analysis/index.html",
+      "/posts/data-science/index.html",
+      "/posts/data-science/ml-insurance-pricing.html",
+      "/posts/actuarial/mortality-analysis.html",
+      "/posts/data-analysis/data-visualization-best-practices.html",
+      "/projects/index.html",
+      "/projects/project1.html",
+      "/projects/project2.html"
+    ]
+  },
+  {
+    "listing": "/posts/data-analysis/index.html",
+    "items": [
+      "/posts/data-analysis/data-visualization-best-practices.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/actuarial/index.html",
+      "/posts/data-science/index.html",
+      "/posts/data-science/ml-insurance-pricing.html",
+      "/posts/data-analysis/index.html",
+      "/posts/actuarial/mortality-analysis.html",
+      "/posts/data-analysis/data-visualization-best-practices.html"
+    ]
+  },
+  {
+    "listing": "/posts/data-science/index.html",
+    "items": [
+      "/posts/data-science/ml-insurance-pricing.html"
+    ]
+  },
+  {
+    "listing": "/posts/actuarial/index.html",
+    "items": [
+      "/posts/actuarial/mortality-analysis.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/project1.html",
+      "/projects/project2.html"
+    ]
+  }
+]

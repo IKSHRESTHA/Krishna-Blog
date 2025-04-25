@@ -1,0 +1,258 @@
+/* Custom CSS for the Actuarial & Data Science Hub website */
+
+/* Base styles and variables */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --light-bg: #f8f9fa;
+  --dark-bg: #343a40;
+  --text-color: #333;
+  --light-text: #f8f9fa;
+  --font-main: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-code: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --border-radius: 4px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Hero banner on homepage */
+.hero-banner {
+  background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.7)), url("images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--light-text);
+  padding: 4rem 2rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Card styling for blog posts and projects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Category pills */
+.quarto-category {
+  background-color: var(--light-bg);
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.quarto-category:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Code blocks */
+pre {
+  border-radius: var(--border-radius);
+  font-family: var(--font-code);
+}
+
+code {
+  font-family: var(--font-code);
+}
+
+/* Interactive elements */
+.interactive-widget {
+  border: 1px solid #e9ecef;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: var(--light-bg);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+table th {
+  background-color: var(--light-bg);
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 3rem 1rem;
+  }
+  
+  .hero-banner h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-banner p {
+    font-size: 1rem;
+  }
+}
+
+/* Accessibility improvements */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .navbar, .page-footer, .sidebar, .quarto-title-banner {
+    display: none;
+  }
+  
+  body {
+    font-size: 12pt;
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/* Newsletter form styling */
+form .form-control {
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+}
+
+/* Footer styling */
+.page-footer {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  padding: 2rem 0;
+}
+
+.page-footer a {
+  color: var(--light-text);
+  text-decoration: underline;
+}
+
+.page-footer a:hover {
+  color: var(--secondary-color);
+}
+
+/* TOC styling */
+#TOC {
+  border-left: 3px solid var(--secondary-color);
+  padding-left: 1rem;
+}
+
+/* Syntax highlighting improvements */
+.sourceCode {
+  border-radius: var(--border-radius);
+}
+
+/* Plotly and interactive visualization containers */
+.plotly-graph-div, .leaflet-container {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+/* R code output styling */
+.cell-output {
+  background-color: var(--light-bg);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  padding: 1rem;
+  margin-top: -5px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+
+/* Search box styling */
+.quarto-search-form {
+  border-radius: var(--border-radius);
+}
+
+/* Navbar customization */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination controls */
+.pagination {
+  margin-top: 2rem;
+}
+
+.page-item.active .page-link {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 1rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Figure captions */
+figcaption {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Math equation styling */
+.math {
+  overflow-x: auto;
+}
+
+/* Comments section */
+.giscus {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #dee2e6;
+}

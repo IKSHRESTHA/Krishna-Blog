@@ -1,0 +1,590 @@
+[
+  {
+    "objectID": "templates/blog-post-template.html",
+    "href": "templates/blog-post-template.html",
+    "title": "Post Title Here",
+    "section": "",
+    "text": "Start with a compelling introduction that clearly states what the post is about and why it matters to your audience. Include:\n\nThe problem or question being addressed\nWhy this topic is important for actuaries/data scientists\nWhat readers will learn or gain from this post\nA brief roadmap of what the post will cover"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#introduction",
+    "href": "templates/blog-post-template.html#introduction",
+    "title": "Post Title Here",
+    "section": "",
+    "text": "Start with a compelling introduction that clearly states what the post is about and why it matters to your audience. Include:\n\nThe problem or question being addressed\nWhy this topic is important for actuaries/data scientists\nWhat readers will learn or gain from this post\nA brief roadmap of what the post will cover"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#background-and-context",
+    "href": "templates/blog-post-template.html#background-and-context",
+    "title": "Post Title Here",
+    "section": "Background and Context",
+    "text": "Background and Context\nProvide necessary background information to ensure readers have the context they need to understand your analysis or discussion. This might include:\n\nBrief overview of relevant actuarial or data science concepts\nSummary of previous research or approaches\nExplanation of the business or technical problem being solved"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#main-content-section-1",
+    "href": "templates/blog-post-template.html#main-content-section-1",
+    "title": "Post Title Here",
+    "section": "Main Content Section 1",
+    "text": "Main Content Section 1\nDivide your main content into logical sections with clear headings. Each section should:\n\nFocus on a specific aspect of your topic\nInclude relevant code examples when appropriate\nProvide visualizations that enhance understanding\nExplain concepts clearly for both technical and non-technical readers\n\n\n\nCode\n# Example code block\n# Replace with actual analysis code relevant to your post\ndata &lt;- tibble(\n  x = 1:10,\n  y = x^2\n)\n\nggplot(data, aes(x, y)) +\n  geom_line() +\n  geom_point() +\n  labs(\n    title = \"Sample Visualization\",\n    subtitle = \"Replace with meaningful subtitle\",\n    x = \"X-axis Label\",\n    y = \"Y-axis Label\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nDescriptive figure caption that explains what the visualization shows"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#main-content-section-2",
+    "href": "templates/blog-post-template.html#main-content-section-2",
+    "title": "Post Title Here",
+    "section": "Main Content Section 2",
+    "text": "Main Content Section 2\nContinue with additional sections as needed. Consider including:\n\nComparative analyses\nCase studies or examples\nStep-by-step tutorials\nTheoretical explanations followed by practical applications\n\n\n\nCode\n# Additional code example\n# Replace with actual analysis code relevant to your post"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#results-and-discussion",
+    "href": "templates/blog-post-template.html#results-and-discussion",
+    "title": "Post Title Here",
+    "section": "Results and Discussion",
+    "text": "Results and Discussion\nSummarize the key findings or insights from your analysis. This section should:\n\nClearly state the results and their implications\nDiscuss limitations of the approach\nCompare with alternative methods or previous work\nSuggest practical applications or next steps"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#conclusion",
+    "href": "templates/blog-post-template.html#conclusion",
+    "title": "Post Title Here",
+    "section": "Conclusion",
+    "text": "Conclusion\nWrap up your post with a strong conclusion that:\n\nSummarizes the key points and insights\nReinforces the significance of the findings\nSuggests areas for future research or exploration\nProvides actionable takeaways for readers"
+  },
+  {
+    "objectID": "templates/blog-post-template.html#references",
+    "href": "templates/blog-post-template.html#references",
+    "title": "Post Title Here",
+    "section": "References",
+    "text": "References\nList all references cited in your post. Use proper citation format."
+  },
+  {
+    "objectID": "templates/blog-post-template.html#acknowledgments",
+    "href": "templates/blog-post-template.html#acknowledgments",
+    "title": "Post Title Here",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nOptional section to acknowledge contributors, data sources, or other support."
+  },
+  {
+    "objectID": "templates/blog-post-template.html#about-the-author",
+    "href": "templates/blog-post-template.html#about-the-author",
+    "title": "Post Title Here",
+    "section": "About the Author",
+    "text": "About the Author\nBrief bio highlighting your expertise and background relevant to the post topic. Include:\n\nProfessional role and experience\nRelevant credentials or certifications\nAreas of specialization or research interests\nHow readers can connect with you (LinkedIn, Twitter, etc.)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "I’m an actuary and data scientist passionate about using data to solve complex problems. This site showcases my work, research, and insights at the intersection of actuarial science, data science, and analytics.\nAbout Me View Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShowcasing my work in actuarial science and data analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Projects\n\n\n\n\n\n\n\nRisk modeling and assessment\nInsurance pricing and reserving\nMortality and longevity analysis\nPension valuation\n\n\n\n\n\nMachine learning applications\nPredictive modeling\nStatistical analysis\nNatural language processing\n\n\n\n\n\nData visualization\nBusiness intelligence\nFinancial analysis\nTrend forecasting\n\n\n\n\n\n\nStay updated with the latest in actuarial science and data analytics.\n\n\n&lt;input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"Your email address\"&gt;\n\n\n&lt;button type=\"submit\" class=\"btn btn-primary mb-3\"&gt;Subscribe&lt;/button&gt;"
+  },
+  {
+    "objectID": "index.html#featured-posts",
+    "href": "index.html#featured-posts",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Insights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Showcasing my work in actuarial science and data analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Projects"
+  },
+  {
+    "objectID": "index.html#areas-of-expertise",
+    "href": "index.html#areas-of-expertise",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Risk modeling and assessment\nInsurance pricing and reserving\nMortality and longevity analysis\nPension valuation\n\n\n\n\n\nMachine learning applications\nPredictive modeling\nStatistical analysis\nNatural language processing\n\n\n\n\n\nData visualization\nBusiness intelligence\nFinancial analysis\nTrend forecasting"
+  },
+  {
+    "objectID": "index.html#newsletter",
+    "href": "index.html#newsletter",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Stay updated with the latest in actuarial science and data analytics.\n\n\n&lt;input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"Your email address\"&gt;\n\n\n&lt;button type=\"submit\" class=\"btn btn-primary mb-3\"&gt;Subscribe&lt;/button&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Project 1\nProject description goes here."
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Project 2\nProject description goes here."
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html",
+    "href": "posts/actuarial/mortality-analysis.html",
+    "title": "Mortality Table Analysis with R",
+    "section": "",
+    "text": "Mortality tables are fundamental tools in actuarial science, providing the foundation for life insurance pricing, pension valuations, and demographic studies. This post explores how to work with mortality data in R, create visualizations, and perform key actuarial calculations.\n\n\nMortality tables (also called life tables) present the probability of death for individuals at different ages. They typically include:\n\nAge (\\(x\\))\nNumber of survivors to age \\(x\\) (\\(l_x\\))\nNumber of deaths between ages \\(x\\) and \\(x+1\\) (\\(d_x\\))\nProbability of death between ages \\(x\\) and \\(x+1\\) (\\(q_x\\))\nProbability of survival from age \\(x\\) to \\(x+1\\) (\\(p_x\\))\nLife expectancy at age \\(x\\) (\\(e_x\\))\n\nThese tables form the statistical basis for calculating premiums, reserves, and other actuarial values."
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#introduction",
+    "href": "posts/actuarial/mortality-analysis.html#introduction",
+    "title": "Mortality Table Analysis with R",
+    "section": "",
+    "text": "Mortality tables are fundamental tools in actuarial science, providing the foundation for life insurance pricing, pension valuations, and demographic studies. This post explores how to work with mortality data in R, create visualizations, and perform key actuarial calculations.\n\n\nMortality tables (also called life tables) present the probability of death for individuals at different ages. They typically include:\n\nAge (\\(x\\))\nNumber of survivors to age \\(x\\) (\\(l_x\\))\nNumber of deaths between ages \\(x\\) and \\(x+1\\) (\\(d_x\\))\nProbability of death between ages \\(x\\) and \\(x+1\\) (\\(q_x\\))\nProbability of survival from age \\(x\\) to \\(x+1\\) (\\(p_x\\))\nLife expectancy at age \\(x\\) (\\(e_x\\))\n\nThese tables form the statistical basis for calculating premiums, reserves, and other actuarial values."
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#creating-a-basic-mortality-table-in-r",
+    "href": "posts/actuarial/mortality-analysis.html#creating-a-basic-mortality-table-in-r",
+    "title": "Mortality Table Analysis with R",
+    "section": "Creating a Basic Mortality Table in R",
+    "text": "Creating a Basic Mortality Table in R\nLet’s start by creating a simple mortality table using the Gompertz-Makeham law of mortality, which is commonly used in actuarial work.\n\n\nCode\n# Define parameters for Gompertz-Makeham law\nalpha &lt;- 0.0002  # Constant component\nbeta &lt;- 0.00001  # Age-dependent component (base)\ngamma &lt;- 0.1     # Age-dependent component (exponential)\n\n# Create age range\nages &lt;- 0:100\n\n# Calculate mortality rates using Gompertz-Makeham formula\nqx &lt;- alpha + beta * exp(gamma * ages)\n\n# Ensure probabilities are between 0 and 1\nqx &lt;- pmin(qx, 1)\n\n# Calculate survival probabilities\npx &lt;- 1 - qx\n\n# Calculate number of survivors (starting with 100,000 lives)\nlx &lt;- numeric(length(ages))\nlx[1] &lt;- 100000\nfor (i in 2:length(ages)) {\n  lx[i] &lt;- lx[i-1] * px[i-1]\n}\n\n# Calculate deaths\ndx &lt;- numeric(length(ages))\nfor (i in 1:(length(ages)-1)) {\n  dx[i] &lt;- lx[i] - lx[i+1]\n}\ndx[length(ages)] &lt;- lx[length(ages)]\n\n# Create mortality table\nmortality_table &lt;- data.frame(\n  Age = ages,\n  qx = qx,\n  px = px,\n  lx = lx,\n  dx = dx\n)\n\n# Display first 10 rows of the table\nkable(head(mortality_table, 10), \n      caption = \"Mortality Table (First 10 Ages)\",\n      digits = 5,\n      format.args = list(big.mark = \",\")) %&gt;%\n  kable_styling(bootstrap_options = c(\"striped\", \"hover\", \"condensed\"))\n\n\n\nMortality Table (First 10 Ages)\n\n\nAge\nqx\npx\nlx\ndx\n\n\n\n\n0\n0.00021\n0.99979\n100,000.00\n21.00000\n\n\n1\n0.00021\n0.99979\n99,979.00\n21.10074\n\n\n2\n0.00021\n0.99979\n99,957.90\n21.21247\n\n\n3\n0.00021\n0.99979\n99,936.69\n21.33634\n\n\n4\n0.00021\n0.99979\n99,915.35\n21.47363\n\n\n5\n0.00022\n0.99978\n99,893.88\n21.62575\n\n\n6\n0.00022\n0.99978\n99,872.25\n21.79424\n\n\n7\n0.00022\n0.99978\n99,850.46\n21.98083\n\n\n8\n0.00022\n0.99978\n99,828.48\n22.18742\n\n\n9\n0.00022\n0.99978\n99,806.29\n22.41610"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#visualizing-mortality-data",
+    "href": "posts/actuarial/mortality-analysis.html#visualizing-mortality-data",
+    "title": "Mortality Table Analysis with R",
+    "section": "Visualizing Mortality Data",
+    "text": "Visualizing Mortality Data\nVisualization is crucial for understanding mortality patterns. Let’s create some interactive plots to explore our mortality table.\n\nMortality Rates by Age\n\n\nCode\np &lt;- ggplot(mortality_table, aes(x = Age, y = qx)) +\n  geom_line(color = \"#3498db\", size = 1) +\n  labs(\n    title = \"Mortality Rates by Age\",\n    subtitle = \"Based on Gompertz-Makeham Law\",\n    x = \"Age\",\n    y = \"Probability of Death (qx)\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p) %&gt;%\n  layout(hovermode = \"x unified\")\n\n\n\n\n\n\n\n\nSurvival Curve\nThe survival curve shows the number of survivors at each age from an initial population.\n\n\nCode\np2 &lt;- ggplot(mortality_table, aes(x = Age, y = lx)) +\n  geom_line(color = \"#2c3e50\", size = 1) +\n  labs(\n    title = \"Survival Curve\",\n    subtitle = \"Number of Survivors by Age (from 100,000 initial lives)\",\n    x = \"Age\",\n    y = \"Number of Survivors (lx)\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p2) %&gt;%\n  layout(hovermode = \"x unified\")"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#calculating-life-expectancy",
+    "href": "posts/actuarial/mortality-analysis.html#calculating-life-expectancy",
+    "title": "Mortality Table Analysis with R",
+    "section": "Calculating Life Expectancy",
+    "text": "Calculating Life Expectancy\nLife expectancy is a key metric derived from mortality tables. Let’s calculate and visualize life expectancy at different ages.\n\n\nCode\n# Calculate temporary life expectancies\ncalculate_ex &lt;- function(mortality_table) {\n  ages &lt;- mortality_table$Age\n  lx &lt;- mortality_table$lx\n  n &lt;- length(ages)\n  \n  # Initialize ex vector\n  ex &lt;- numeric(n)\n  \n  for (i in 1:n) {\n    # Sum of lx+t for t &gt; 0\n    future_lx_sum &lt;- sum(lx[(i+1):n])\n    \n    # Life expectancy formula: sum of lx+t / lx\n    ex[i] &lt;- future_lx_sum / lx[i]\n  }\n  \n  return(ex)\n}\n\n# Add life expectancy to the table\nmortality_table$ex &lt;- calculate_ex(mortality_table)\n\n# Visualize life expectancy\np3 &lt;- ggplot(mortality_table, aes(x = Age, y = ex)) +\n  geom_line(color = \"#e74c3c\", size = 1) +\n  labs(\n    title = \"Life Expectancy by Age\",\n    subtitle = \"Expected remaining years of life\",\n    x = \"Age\",\n    y = \"Life Expectancy (ex)\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p3) %&gt;%\n  layout(hovermode = \"x unified\")"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#actuarial-present-values",
+    "href": "posts/actuarial/mortality-analysis.html#actuarial-present-values",
+    "title": "Mortality Table Analysis with R",
+    "section": "Actuarial Present Values",
+    "text": "Actuarial Present Values\nNow let’s calculate some actuarial present values, which are essential for insurance and annuity pricing.\n\nPresent Value of Life Annuity\n\n\nCode\n# Set interest rate\ninterest_rate &lt;- 0.03\n\n# Calculate discount factor\nv &lt;- 1 / (1 + interest_rate)\n\n# Calculate annuity values\ncalculate_annuity &lt;- function(mortality_table, interest_rate) {\n  ages &lt;- mortality_table$Age\n  lx &lt;- mortality_table$lx\n  n &lt;- length(ages)\n  \n  # Initialize annuity value vector\n  ax &lt;- numeric(n)\n  \n  for (i in 1:n) {\n    # Sum of v^t * lx+t / lx for t &gt; 0\n    pv_sum &lt;- 0\n    for (t in 1:(n-i)) {\n      pv_sum &lt;- pv_sum + (1 / (1 + interest_rate))^t * lx[i+t] / lx[i]\n    }\n    \n    ax[i] &lt;- pv_sum\n  }\n  \n  return(ax)\n}\n\n# Add annuity values to the table\nmortality_table$ax &lt;- calculate_annuity(mortality_table, interest_rate)\n\n# Display annuity values for selected ages\nselected_ages &lt;- c(20, 30, 40, 50, 60, 65, 70, 80, 90)\nannuity_table &lt;- mortality_table[mortality_table$Age %in% selected_ages, c(\"Age\", \"ax\")]\n\nkable(annuity_table, \n      caption = paste0(\"Present Value of Life Annuity (Interest Rate = \", interest_rate*100, \"%)\"),\n      col.names = c(\"Age\", \"Annuity Value (ax)\"),\n      digits = 4) %&gt;%\n  kable_styling(bootstrap_options = c(\"striped\", \"hover\", \"condensed\"))\n\n\n\nPresent Value of Life Annuity (Interest Rate = 3%)\n\n\n\nAge\nAnnuity Value (ax)\n\n\n\n\n21\n20\n28.0730\n\n\n31\n30\n26.3664\n\n\n41\n40\n24.1263\n\n\n51\n50\n21.2479\n\n\n61\n60\n17.6848\n\n\n66\n65\n15.6688\n\n\n71\n70\n13.5359\n\n\n81\n80\n9.1334\n\n\n91\n90\n4.9497\n\n\n\n\n\n\n\n\n\nTerm Life Insurance Values\n\n\nCode\n# Calculate term life insurance values\ncalculate_term_insurance &lt;- function(mortality_table, interest_rate, term) {\n  ages &lt;- mortality_table$Age\n  qx &lt;- mortality_table$qx\n  px &lt;- mortality_table$px\n  n &lt;- length(ages)\n  \n  # Initialize insurance value vector\n  Ax &lt;- numeric(n)\n  \n  for (i in 1:(n-term)) {\n    # Calculate term insurance value\n    value &lt;- 0\n    cum_prob &lt;- 1\n    \n    for (t in 0:(term-1)) {\n      if (i+t &lt;= n) {\n        # Probability of death in year t\n        death_prob &lt;- cum_prob * qx[i+t]\n        \n        # Present value of benefit\n        pv_benefit &lt;- (1 / (1 + interest_rate))^(t+1) * death_prob\n        \n        value &lt;- value + pv_benefit\n        \n        # Update cumulative survival probability\n        cum_prob &lt;- cum_prob * px[i+t]\n      }\n    }\n    \n    Ax[i] &lt;- value\n  }\n  \n  return(Ax)\n}\n\n# Calculate 10-year term insurance values\nterm &lt;- 10\nmortality_table$A10x &lt;- calculate_term_insurance(mortality_table, interest_rate, term)\n\n# Display insurance values for selected ages\ninsurance_table &lt;- mortality_table[mortality_table$Age %in% selected_ages, c(\"Age\", \"A10x\")]\n\nkable(insurance_table, \n      caption = paste0(term, \"-Year Term Life Insurance Values (Interest Rate = \", interest_rate*100, \"%)\"),\n      col.names = c(\"Age\", \"Insurance Value (A10x)\"),\n      digits = 4) %&gt;%\n  kable_styling(bootstrap_options = c(\"striped\", \"hover\", \"condensed\"))\n\n\n\n10-Year Term Life Insurance Values (Interest Rate = 3%)\n\n\n\nAge\nInsurance Value (A10x)\n\n\n\n\n21\n20\n0.0027\n\n\n31\n30\n0.0044\n\n\n41\n40\n0.0091\n\n\n51\n50\n0.0217\n\n\n61\n60\n0.0550\n\n\n66\n65\n0.0880\n\n\n71\n70\n0.1398\n\n\n81\n80\n0.3327\n\n\n91\n90\n0.6542"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#comparing-different-mortality-tables",
+    "href": "posts/actuarial/mortality-analysis.html#comparing-different-mortality-tables",
+    "title": "Mortality Table Analysis with R",
+    "section": "Comparing Different Mortality Tables",
+    "text": "Comparing Different Mortality Tables\nIn practice, actuaries often need to compare different mortality tables. Let’s create a second table using a different mortality law and compare them.\n\n\nCode\n# Create a second mortality table using Weibull distribution\nshape &lt;- 2.5\nscale &lt;- 80\n\n# Calculate mortality rates using Weibull\nqx_weibull &lt;- pweibull(ages+1, shape, scale) - pweibull(ages, shape, scale)\nqx_weibull &lt;- qx_weibull / (1 - pweibull(ages, shape, scale))\nqx_weibull[is.nan(qx_weibull)] &lt;- 1\n\n# Calculate survival probabilities\npx_weibull &lt;- 1 - qx_weibull\n\n# Calculate number of survivors\nlx_weibull &lt;- numeric(length(ages))\nlx_weibull[1] &lt;- 100000\nfor (i in 2:length(ages)) {\n  lx_weibull[i] &lt;- lx_weibull[i-1] * px_weibull[i-1]\n}\n\n# Create comparison data frame\ncomparison_data &lt;- data.frame(\n  Age = rep(ages, 2),\n  qx = c(qx, qx_weibull),\n  Model = rep(c(\"Gompertz-Makeham\", \"Weibull\"), each = length(ages))\n)\n\n# Create comparison plot\np4 &lt;- ggplot(comparison_data, aes(x = Age, y = qx, color = Model)) +\n  geom_line(size = 1) +\n  scale_color_manual(values = c(\"#3498db\", \"#e74c3c\")) +\n  labs(\n    title = \"Comparison of Mortality Models\",\n    subtitle = \"Gompertz-Makeham vs. Weibull\",\n    x = \"Age\",\n    y = \"Probability of Death (qx)\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\"),\n    legend.position = \"bottom\"\n  )\n\n# Convert to interactive plot\nggplotly(p4) %&gt;%\n  layout(hovermode = \"x unified\")"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#practical-applications",
+    "href": "posts/actuarial/mortality-analysis.html#practical-applications",
+    "title": "Mortality Table Analysis with R",
+    "section": "Practical Applications",
+    "text": "Practical Applications\n\nPremium Calculation Example\nLet’s calculate a simple premium for a 10-year term life insurance policy with a $100,000 benefit.\n\n\nCode\n# Function to calculate net single premium\ncalculate_nsp &lt;- function(age, term, benefit, mortality_table, interest_rate) {\n  # Get index for the age\n  age_index &lt;- which(mortality_table$Age == age)\n  \n  if (length(age_index) == 0) {\n    return(NA)\n  }\n  \n  # Get term insurance value\n  A_term &lt;- mortality_table$A10x[age_index]\n  \n  # Calculate net single premium\n  nsp &lt;- benefit * A_term\n  \n  return(nsp)\n}\n\n# Function to calculate annual premium\ncalculate_annual_premium &lt;- function(age, term, benefit, mortality_table, interest_rate) {\n  # Get index for the age\n  age_index &lt;- which(mortality_table$Age == age)\n  \n  if (length(age_index) == 0) {\n    return(NA)\n  }\n  \n  # Get term insurance value and annuity value\n  A_term &lt;- mortality_table$A10x[age_index]\n  \n  # Calculate annuity value for term years\n  ax_term &lt;- 0\n  cum_prob &lt;- 1\n  v &lt;- 1 / (1 + interest_rate)\n  \n  for (t in 0:(term-1)) {\n    if (age_index + t &lt;= nrow(mortality_table)) {\n      ax_term &lt;- ax_term + v^t * cum_prob\n      cum_prob &lt;- cum_prob * mortality_table$px[age_index + t]\n    }\n  }\n  \n  # Calculate annual premium\n  annual_premium &lt;- benefit * A_term / ax_term\n  \n  return(annual_premium)\n}\n\n# Calculate premiums for different ages\npremium_ages &lt;- c(25, 30, 35, 40, 45, 50, 55, 60)\nbenefit &lt;- 100000\nterm &lt;- 10\n\n# Calculate premiums\nnsp_values &lt;- sapply(premium_ages, calculate_nsp, term = term, benefit = benefit, \n                    mortality_table = mortality_table, interest_rate = interest_rate)\nannual_premiums &lt;- sapply(premium_ages, calculate_annual_premium, term = term, benefit = benefit, \n                         mortality_table = mortality_table, interest_rate = interest_rate)\n\n# Create premium table\npremium_table &lt;- data.frame(\n  Age = premium_ages,\n  NSP = nsp_values,\n  Annual_Premium = annual_premiums\n)\n\nkable(premium_table, \n      caption = paste0(\"10-Year Term Life Insurance Premiums ($\", format(benefit, big.mark = \",\"), \" Benefit)\"),\n      col.names = c(\"Age\", \"Net Single Premium ($)\", \"Annual Premium ($)\"),\n      digits = 2,\n      format.args = list(big.mark = \",\")) %&gt;%\n  kable_styling(bootstrap_options = c(\"striped\", \"hover\", \"condensed\"))\n\n\n\n\n10-Year Term Life Insurance Premiums ($1e+05 Benefit)\n \n  \n    Age \n    Net Single Premium ($) \n    Annual Premium ($) \n  \n \n\n\n  \n    25 \n    335.77 \n    38.27 \n  \n  \n    30 \n    442.86 \n    50.50 \n  \n  \n    35 \n    619.17 \n    70.66 \n  \n  \n    40 \n    909.16 \n    103.89 \n  \n  \n    45 \n    1,385.40 \n    158.62 \n  \n  \n    50 \n    2,165.49 \n    248.75 \n  \n  \n    55 \n    3,437.93 \n    397.07 \n  \n  \n    60 \n    5,499.06 \n    640.81 \n  \n\n\n\n\n\n\n\nVisualizing Premium Trends\n\n\nCode\n# Create premium trend plot\np5 &lt;- ggplot(premium_table, aes(x = Age, y = Annual_Premium)) +\n  geom_line(color = \"#2c3e50\", size = 1) +\n  geom_point(color = \"#3498db\", size = 3) +\n  labs(\n    title = \"Annual Premium by Age\",\n    subtitle = paste0(\"10-Year Term Life Insurance ($\", format(benefit, big.mark = \",\"), \" Benefit)\"),\n    x = \"Age\",\n    y = \"Annual Premium ($)\",\n    caption = \"Source: Simulated data\"\n  ) +\n  scale_y_continuous(labels = scales::dollar_format()) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p5) %&gt;%\n  layout(hovermode = \"x unified\")"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#conclusion",
+    "href": "posts/actuarial/mortality-analysis.html#conclusion",
+    "title": "Mortality Table Analysis with R",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis post has demonstrated how to work with mortality tables in R, from basic construction to practical applications in insurance pricing. The interactive visualizations help in understanding the patterns and relationships in mortality data.\nFor actuaries and data scientists, R provides powerful tools for mortality analysis, allowing for sophisticated modeling and visualization that can enhance decision-making in insurance and pension contexts.\nIn future posts, we’ll explore more advanced topics such as:\n\nStochastic mortality modeling\nMulti-state models for health insurance\nBayesian approaches to mortality projection\nMachine learning applications in mortality analysis"
+  },
+  {
+    "objectID": "posts/actuarial/mortality-analysis.html#references",
+    "href": "posts/actuarial/mortality-analysis.html#references",
+    "title": "Mortality Table Analysis with R",
+    "section": "References",
+    "text": "References\n\nDickson, D. C., Hardy, M. R., & Waters, H. R. (2013). Actuarial Mathematics for Life Contingent Risks. Cambridge University Press.\nBowers, N. L., Gerber, H. U., Hickman, J. C., Jones, D. A., & Nesbitt, C. J. (1997). Actuarial Mathematics. Society of Actuaries.\nCharpentier, A. (2014). Computational Actuarial Science with R. CRC Press.\nSociety of Actuaries. (2019). Life Tables and Mortality Models. Education and Examination Committee of the Society of Actuaries."
+  },
+  {
+    "objectID": "posts/data-science/ml-insurance-pricing.html",
+    "href": "posts/data-science/ml-insurance-pricing.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "posts/2025-04-24-example-post.html",
+    "href": "posts/2025-04-24-example-post.html",
+    "title": "Example Post",
+    "section": "",
+    "text": "summary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "posts/2025-04-24-example-post.html#r-code-chunk",
+    "href": "posts/2025-04-24-example-post.html#r-code-chunk",
+    "title": "Example Post",
+    "section": "",
+    "text": "summary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "posts/2025-04-24-example-post.html#python-code-chunk",
+    "href": "posts/2025-04-24-example-post.html#python-code-chunk",
+    "title": "Example Post",
+    "section": "Python Code Chunk",
+    "text": "Python Code Chunk\n\nimport numpy as np\nnp.random.rand(3, 2)\n\narray([[0.86854793, 0.86956832],\n       [0.56966943, 0.33835624],\n       [0.82081885, 0.81141421]])"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html",
+    "href": "posts/data-analysis/data-visualization-best-practices.html",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "",
+    "text": "Effective data visualization is a critical skill for modern actuaries. As the complexity and volume of data continue to grow, the ability to communicate insights visually becomes increasingly important. Well-designed visualizations can help actuaries explain complex concepts to stakeholders, identify patterns in data, and support decision-making processes.\nThis post explores best practices for creating effective data visualizations in actuarial work, with practical examples implemented in R. We’ll cover principles of good visualization design, common visualization types for actuarial data, and techniques for making your visualizations more interactive and engaging."
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#introduction",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#introduction",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "",
+    "text": "Effective data visualization is a critical skill for modern actuaries. As the complexity and volume of data continue to grow, the ability to communicate insights visually becomes increasingly important. Well-designed visualizations can help actuaries explain complex concepts to stakeholders, identify patterns in data, and support decision-making processes.\nThis post explores best practices for creating effective data visualizations in actuarial work, with practical examples implemented in R. We’ll cover principles of good visualization design, common visualization types for actuarial data, and techniques for making your visualizations more interactive and engaging."
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#principles-of-effective-data-visualization",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#principles-of-effective-data-visualization",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Principles of Effective Data Visualization",
+    "text": "Principles of Effective Data Visualization\nBefore diving into specific visualization techniques, let’s establish some core principles that should guide your approach to creating visualizations:\n\n1. Know Your Audience\nDifferent stakeholders have different needs and levels of technical understanding:\n\nExecutive leadership: Focus on high-level insights and business implications\nRegulatory bodies: Emphasize accuracy, compliance, and methodological rigor\nFellow actuaries: Include technical details and statistical nuances\nPolicyholders/clients: Simplify complex concepts without sacrificing accuracy\n\n\n\n2. Choose the Right Visualization Type\nSelect visualization types that best represent your data and the story you want to tell:\n\nTime series data: Line charts, area charts\nCategorical comparisons: Bar charts, dot plots\nDistributions: Histograms, density plots, box plots\nRelationships: Scatter plots, bubble charts, heatmaps\nPart-to-whole relationships: Pie charts, stacked bar charts, treemaps\nGeospatial data: Maps, choropleth maps\n\n\n\n3. Design for Clarity and Accuracy\n\nUse clear titles and labels\nInclude appropriate axes and scales\nAvoid chart junk and unnecessary decoration\nEnsure the visualization doesn’t distort the underlying data\nUse color purposefully and accessibly\n\n\n\n4. Tell a Story\n\nStructure visualizations to highlight key insights\nUse annotations to draw attention to important points\nConsider the sequence of visualizations in a report or presentation\nProvide context and interpretation"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#creating-effective-visualizations-for-actuarial-data",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#creating-effective-visualizations-for-actuarial-data",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Creating Effective Visualizations for Actuarial Data",
+    "text": "Creating Effective Visualizations for Actuarial Data\nLet’s explore some common visualization types used in actuarial work, with examples implemented in R.\n\nSimulating Actuarial Data\nFirst, let’s create some simulated data that resembles typical actuarial datasets:\n\n\nCode\nset.seed(123)\n\n# Create a dataset of policy data\nn_policies &lt;- 1000\npolicy_data &lt;- tibble(\n  policy_id = 1:n_policies,\n  age = sample(18:80, n_policies, replace = TRUE),\n  gender = sample(c(\"Male\", \"Female\"), n_policies, replace = TRUE),\n  policy_type = sample(c(\"Term Life\", \"Whole Life\", \"Universal Life\", \"Variable Life\"), \n                      n_policies, replace = TRUE, prob = c(0.4, 0.3, 0.2, 0.1)),\n  policy_term = sample(c(10, 15, 20, 25, 30), n_policies, replace = TRUE),\n  sum_assured = round(rlnorm(n_policies, meanlog = 11, sdlog = 0.5)),\n  premium = round(rlnorm(n_policies, meanlog = 7, sdlog = 0.4)),\n  policy_year = sample(1:10, n_policies, replace = TRUE),\n  region = sample(c(\"Northeast\", \"Southeast\", \"Midwest\", \"West\", \"Southwest\"), \n                 n_policies, replace = TRUE),\n  risk_class = sample(c(\"Preferred Plus\", \"Preferred\", \"Standard Plus\", \"Standard\", \"Substandard\"), \n                     n_policies, replace = TRUE, prob = c(0.1, 0.2, 0.3, 0.3, 0.1)),\n  smoker = sample(c(\"Yes\", \"No\"), n_policies, replace = TRUE, prob = c(0.15, 0.85))\n)\n\n# Create a time series dataset of mortality rates\nyears &lt;- 2000:2023\nage_groups &lt;- c(\"0-9\", \"10-19\", \"20-29\", \"30-39\", \"40-49\", \"50-59\", \"60-69\", \"70-79\", \"80+\")\n\n# Base mortality rates by age group (deaths per 1000)\nbase_mortality &lt;- c(0.5, 0.2, 0.4, 0.8, 2.0, 5.0, 12.0, 30.0, 80.0)\n\n# Create time series with declining trend and seasonal variation\nmortality_data &lt;- expand.grid(\n  year = years,\n  age_group = age_groups,\n  stringsAsFactors = FALSE\n) %&gt;%\n  mutate(\n    age_group_factor = factor(age_group, levels = age_groups),\n    base_rate = base_mortality[as.numeric(age_group_factor)],\n    # Add declining trend over time\n    trend = base_rate * (1 - 0.01 * (year - 2000)),\n    # Add some random variation\n    mortality_rate = pmax(0.1, trend * (1 + rnorm(n(), 0, 0.05)))\n  )\n\n# Create a dataset of claim experience\nn_claims &lt;- 500\nclaim_data &lt;- tibble(\n  claim_id = 1:n_claims,\n  policy_id = sample(policy_data$policy_id, n_claims, replace = TRUE),\n  claim_date = sample(seq(as.Date('2020-01-01'), as.Date('2023-12-31'), by=\"day\"), n_claims, replace = TRUE),\n  claim_amount = round(rlnorm(n_claims, meanlog = 9, sdlog = 1)),\n  claim_type = sample(c(\"Death\", \"Disability\", \"Critical Illness\", \"Surrender\"), \n                     n_claims, replace = TRUE, prob = c(0.3, 0.2, 0.1, 0.4)),\n  processing_time = round(rlnorm(n_claims, meanlog = 3, sdlog = 0.5)),\n  settlement_status = sample(c(\"Settled\", \"In Process\", \"Denied\"), \n                            n_claims, replace = TRUE, prob = c(0.7, 0.2, 0.1))\n)\n\n# Join claim data with policy data\nclaim_policy_data &lt;- claim_data %&gt;%\n  left_join(policy_data, by = \"policy_id\")\n\n# Display sample of the data\ndatatable(head(claim_policy_data, 10),\n          options = list(scrollX = TRUE, pageLength = 5),\n          caption = \"Sample of Simulated Claim and Policy Data\")\n\n\n\n\n\n\n\n\n\nVisualizing Distributions\nActuaries frequently need to understand and communicate the distribution of various metrics. Let’s explore some effective ways to visualize distributions.\n\nAge Distribution by Policy Type\n\n\nCode\n# Create a ridgeline plot of age distribution by policy type\np1 &lt;- ggplot(policy_data, aes(x = age, y = policy_type, fill = policy_type)) +\n  geom_density_ridges(alpha = 0.7, scale = 2) +\n  scale_fill_viridis_d() +\n  labs(\n    title = \"Age Distribution by Policy Type\",\n    subtitle = \"Density ridges showing the age profile of different policy types\",\n    x = \"Age\",\n    y = \"Policy Type\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    legend.position = \"none\",\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p1)\n\n\n\n\n\n\n\n\nClaim Amount Distribution\n\n\nCode\n# Create a histogram with density overlay\np2 &lt;- ggplot(claim_data, aes(x = claim_amount)) +\n  geom_histogram(aes(y = ..density..), bins = 30, fill = \"#3498db\", alpha = 0.7) +\n  geom_density(color = \"#e74c3c\", size = 1) +\n  scale_x_continuous(labels = dollar_format()) +\n  labs(\n    title = \"Distribution of Claim Amounts\",\n    subtitle = \"Histogram with density overlay\",\n    x = \"Claim Amount ($)\",\n    y = \"Density\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p2)\n\n\n\n\n\n\n\n\nBox Plots for Comparing Distributions\n\n\nCode\n# Create box plots of premium by risk class and smoker status\np3 &lt;- ggplot(policy_data, aes(x = risk_class, y = premium, fill = smoker)) +\n  geom_boxplot() +\n  scale_fill_brewer(palette = \"Set1\") +\n  scale_y_continuous(labels = dollar_format()) +\n  labs(\n    title = \"Premium Distribution by Risk Class and Smoking Status\",\n    subtitle = \"Box plots showing the impact of risk classification and smoking on premiums\",\n    x = \"Risk Class\",\n    y = \"Annual Premium ($)\",\n    fill = \"Smoker\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\"),\n    axis.text.x = element_text(angle = 45, hjust = 1)\n  )\n\n# Convert to interactive plot\nggplotly(p3)\n\n\n\n\n\n\n\n\n\nTime Series Visualization\nTime series data is fundamental to actuarial work, from mortality trends to policy persistency. Let’s explore effective ways to visualize time series data.\n\nMortality Trends Over Time\n\n\nCode\n# Create a line plot of mortality trends by age group\np4 &lt;- ggplot(mortality_data, aes(x = year, y = mortality_rate, color = age_group, group = age_group)) +\n  geom_line(size = 1) +\n  scale_color_viridis_d() +\n  labs(\n    title = \"Mortality Rate Trends by Age Group (2000-2023)\",\n    subtitle = \"Showing the declining trend in mortality rates across all age groups\",\n    x = \"Year\",\n    y = \"Mortality Rate (per 1,000)\",\n    color = \"Age Group\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\"),\n    legend.position = \"right\"\n  )\n\n# Convert to interactive plot\nggplotly(p4)\n\n\n\n\n\n\n\n\nClaim Trends by Type\n\n\nCode\n# Aggregate claims by month and type\nmonthly_claims &lt;- claim_data %&gt;%\n  mutate(month = floor_date(claim_date, \"month\")) %&gt;%\n  group_by(month, claim_type) %&gt;%\n  summarize(\n    total_claims = n(),\n    total_amount = sum(claim_amount),\n    .groups = \"drop\"\n  )\n\n# Create a stacked area chart\np5 &lt;- ggplot(monthly_claims, aes(x = month, y = total_amount, fill = claim_type)) +\n  geom_area(alpha = 0.7) +\n  scale_fill_brewer(palette = \"Set2\") +\n  scale_x_date(date_breaks = \"6 months\", date_labels = \"%b %Y\") +\n  scale_y_continuous(labels = dollar_format()) +\n  labs(\n    title = \"Monthly Claim Amounts by Claim Type\",\n    subtitle = \"Stacked area chart showing the composition of claims over time\",\n    x = \"Month\",\n    y = \"Total Claim Amount ($)\",\n    fill = \"Claim Type\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\"),\n    axis.text.x = element_text(angle = 45, hjust = 1)\n  )\n\n# Convert to interactive plot\nggplotly(p5)\n\n\n\n\n\n\n\n\n\nRelationship Visualization\nUnderstanding relationships between variables is crucial for actuarial modeling and pricing. Let’s explore some effective ways to visualize relationships.\n\nScatter Plot with Trend Line\n\n\nCode\n# Create a scatter plot of age vs. premium with trend line\np6 &lt;- ggplot(policy_data, aes(x = age, y = premium, color = policy_type)) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(method = \"loess\", se = FALSE) +\n  scale_color_brewer(palette = \"Set1\") +\n  scale_y_continuous(labels = dollar_format()) +\n  labs(\n    title = \"Relationship Between Age and Premium by Policy Type\",\n    subtitle = \"Scatter plot with smoothed trend lines\",\n    x = \"Age\",\n    y = \"Annual Premium ($)\",\n    color = \"Policy Type\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\")\n  )\n\n# Convert to interactive plot\nggplotly(p6)\n\n\n\n\n\n\n\n\nHeatmap for Correlation Analysis\n\n\nCode\n# Select numeric variables for correlation analysis\nnumeric_vars &lt;- policy_data %&gt;%\n  select(age, policy_term, sum_assured, premium, policy_year)\n\n# Calculate correlation matrix\ncor_matrix &lt;- cor(numeric_vars)\n\n# Create a correlation heatmap\nplot_ly(\n  x = colnames(cor_matrix),\n  y = colnames(cor_matrix),\n  z = cor_matrix,\n  type = \"heatmap\",\n  colorscale = \"RdBu\",\n  zmin = -1,\n  zmax = 1\n) %&gt;%\n  layout(\n    title = \"Correlation Matrix of Policy Variables\",\n    xaxis = list(title = \"\"),\n    yaxis = list(title = \"\")\n  )\n\n\n\n\n\n\n\n\n\nPart-to-Whole Relationships\nVisualizing how parts contribute to a whole is important for understanding portfolio composition, claim breakdowns, and other actuarial analyses.\n\nPolicy Distribution by Region and Type\n\n\nCode\n# Aggregate policy data by region and type\nregion_type_summary &lt;- policy_data %&gt;%\n  group_by(region, policy_type) %&gt;%\n  summarize(\n    count = n(),\n    total_premium = sum(premium),\n    total_sum_assured = sum(sum_assured),\n    .groups = \"drop\"\n  )\n\n# Create a grouped bar chart\np7 &lt;- ggplot(region_type_summary, aes(x = region, y = count, fill = policy_type)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  scale_fill_brewer(palette = \"Set3\") +\n  labs(\n    title = \"Policy Distribution by Region and Type\",\n    subtitle = \"Grouped bar chart showing the number of policies by region and type\",\n    x = \"Region\",\n    y = \"Number of Policies\",\n    fill = \"Policy Type\",\n    caption = \"Source: Simulated data\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    plot.subtitle = element_text(color = \"gray50\"),\n    axis.text.x = element_text(angle = 45, hjust = 1)\n  )\n\n# Convert to interactive plot\nggplotly(p7)\n\n\n\n\n\n\n\n\nClaim Status Breakdown\n\n\nCode\n# Aggregate claim data by settlement status\nstatus_summary &lt;- claim_data %&gt;%\n  group_by(settlement_status) %&gt;%\n  summarize(\n    count = n(),\n    total_amount = sum(claim_amount),\n    .groups = \"drop\"\n  )\n\n# Create a pie chart\nplot_ly(status_summary, labels = ~settlement_status, values = ~count, type = \"pie\",\n        textinfo = \"label+percent\",\n        insidetextorientation = \"radial\",\n        marker = list(colors = c(\"#3498db\", \"#e74c3c\", \"#2ecc71\"))) %&gt;%\n  layout(\n    title = \"Claim Distribution by Settlement Status\",\n    showlegend = TRUE\n  )\n\n\n\n\n\n\n\n\n\nInteractive Dashboards\nFor more complex analyses, interactive dashboards can provide a comprehensive view of actuarial data. Here’s an example of a simple dashboard layout using the patchwork package:\n\n\nCode\n# Create a dashboard layout\n(p1 + p3) / (p4 + p6) + plot_layout(guides = \"collect\") & \n  theme(legend.position = \"bottom\")"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#best-practices-for-actuarial-visualizations",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#best-practices-for-actuarial-visualizations",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Best Practices for Actuarial Visualizations",
+    "text": "Best Practices for Actuarial Visualizations\nBased on the examples above, here are some specific best practices for creating effective visualizations in actuarial work:\n\n1. Choose Appropriate Scales\n\nLog scales for data with large ranges (e.g., claim amounts)\nPercentage scales for comparing proportions\nPer-exposure scales (e.g., per 1,000 lives) for mortality and incidence rates\n\n\n\n2. Use Color Purposefully\n\nUse color to highlight key insights or differentiate categories\nEnsure color schemes are colorblind-friendly\nMaintain consistency in color usage across related visualizations\nConsider using sequential color schemes for ordered data and diverging schemes for data with a meaningful midpoint\n\n\n\n3. Add Context and Annotations\n\nInclude reference lines for industry benchmarks or targets\nAnnotate significant events or outliers\nProvide clear titles, subtitles, and captions\nInclude source information and data timeframes\n\n\n\n4. Design for Your Audience\n\nFor technical audiences: Include statistical details, confidence intervals, and methodological notes\nFor non-technical audiences: Focus on key insights, use simpler visualization types, and provide clear interpretations\nFor regulatory reporting: Ensure accuracy, consistency, and compliance with reporting standards\n\n\n\n5. Make Visualizations Interactive When Appropriate\n\nAllow users to explore data through filtering and drilling down\nProvide tooltips with additional information on hover\nEnable toggling between different views or metrics\nConsider the medium of delivery (e.g., static reports vs. web-based dashboards)"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#common-pitfalls-to-avoid",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#common-pitfalls-to-avoid",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Common Pitfalls to Avoid",
+    "text": "Common Pitfalls to Avoid\nWhen creating visualizations for actuarial work, be careful to avoid these common pitfalls:\n\nMisleading scales: Starting y-axes at non-zero values without clear indication can exaggerate differences\nOvercomplicating: Adding too many variables or visual elements can obscure the main message\nInappropriate visualization types: Using pie charts for more than 5-7 categories or line charts for unordered categories\nIgnoring uncertainty: Failing to represent confidence intervals or prediction ranges\nPoor labeling: Unclear or missing axis labels, legends, and titles"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#tools-for-creating-actuarial-visualizations",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#tools-for-creating-actuarial-visualizations",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Tools for Creating Actuarial Visualizations",
+    "text": "Tools for Creating Actuarial Visualizations\nSeveral tools are available for creating effective visualizations in actuarial work:\n\nR with ggplot2 and plotly: Highly customizable, reproducible, and can create both static and interactive visualizations\nPython with matplotlib, seaborn, and plotly: Similar capabilities to R, with strong integration with data science workflows\nTableau: User-friendly interface with powerful interactive capabilities\nPower BI: Good integration with Microsoft ecosystem and business intelligence workflows\nExcel: Accessible and familiar, though limited in customization and interactivity"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#conclusion",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#conclusion",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "Conclusion",
+    "text": "Conclusion\nEffective data visualization is a powerful tool for actuaries to communicate insights, support decision-making, and tell compelling stories with data. By following best practices and choosing appropriate visualization types, actuaries can create visualizations that are both informative and engaging.\nRemember that the goal of data visualization is not just to present data, but to communicate insights that drive understanding and action. The most effective visualizations are those that clearly answer the questions that matter to your stakeholders.\nIn future posts, we’ll explore more advanced visualization techniques, including:\n\nGeospatial visualizations for regional analysis\nSurvival curves and Kaplan-Meier plots\nNetwork visualizations for understanding relationships\nInteractive dashboards for monitoring key metrics"
+  },
+  {
+    "objectID": "posts/data-analysis/data-visualization-best-practices.html#references",
+    "href": "posts/data-analysis/data-visualization-best-practices.html#references",
+    "title": "Data Visualization Best Practices for Actuaries",
+    "section": "References",
+    "text": "References\n\nFew, S. (2009). Now You See It: Simple Visualization Techniques for Quantitative Analysis. Analytics Press.\nTufte, E. R. (2001). The Visual Display of Quantitative Information. Graphics Press.\nWickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer.\nCairo, A. (2016). The Truthful Art: Data, Charts, and Maps for Communication. New Riders.\nSociety of Actuaries. (2018). Visualization in Actuarial Practice. SOA Research Report."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.\nWith a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise."
+  },
+  {
+    "objectID": "about/index.html#professional-background",
+    "href": "about/index.html#professional-background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.\nWith a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise."
+  },
+  {
+    "objectID": "about/index.html#education-certifications",
+    "href": "about/index.html#education-certifications",
+    "title": "About Me",
+    "section": "Education & Certifications",
+    "text": "Education & Certifications\n\nMaster of Science in Actuarial Science\nUniversity Name, Year\nBachelor of Science in Mathematics\nUniversity Name, Year\nProfessional Certifications\n\nAssociate of the Society of Actuaries (ASA)\nChartered Enterprise Risk Analyst (CERA)\nCertified Data Scientist"
+  },
+  {
+    "objectID": "about/index.html#technical-skills",
+    "href": "about/index.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nMy technical toolkit includes:\n\nProgramming Languages: R, Python, SQL\nStatistical Methods: Regression analysis, time series forecasting, survival analysis\nMachine Learning: Supervised and unsupervised learning, deep learning\nData Visualization: ggplot2, Plotly, Shiny\nActuarial Software: Prophet, AXIS, MoSes\nVersion Control: Git, GitHub"
+  },
+  {
+    "objectID": "about/index.html#research-interests",
+    "href": "about/index.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research interests lie at the intersection of actuarial science and data science:\n\nApplying machine learning to enhance traditional actuarial models\nDeveloping predictive models for mortality and longevity risk\nExploring innovative approaches to insurance pricing and reserving\nCreating interactive tools for risk visualization and communication"
+  },
+  {
+    "objectID": "about/index.html#professional-philosophy",
+    "href": "about/index.html#professional-philosophy",
+    "title": "About Me",
+    "section": "Professional Philosophy",
+    "text": "Professional Philosophy\nI believe in the power of data to transform decision-making processes and drive innovation. My approach combines rigorous statistical methodology with practical business insights to deliver solutions that are both technically sound and actionable.\nI am committed to sharing knowledge and contributing to the advancement of both actuarial science and data science through research, teaching, and community engagement."
+  },
+  {
+    "objectID": "about/index.html#contact-me",
+    "href": "about/index.html#contact-me",
+    "title": "About Me",
+    "section": "Contact Me",
+    "text": "Contact Me\nI’m always interested in collaborating on interesting projects or discussing ideas related to actuarial science and data analytics. Feel free to reach out via email or connect with me on LinkedIn."
+  },
+  {
+    "objectID": "posts/data-analysis/index.html",
+    "href": "posts/data-analysis/index.html",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "Explore articles focused on data analysis, including data visualization, business intelligence, financial analysis, and trend forecasting. These posts showcase practical techniques and tools for extracting insights from data using R programming.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nData Visualization Best Practices for Actuaries\n\n\nCreating effective and insightful visualizations for actuarial reports\n\n\n14 min\n\n\n\ndata-analysis\n\n\nvisualization\n\n\nactuarial\n\n\n\n\nYour Name\n\n\nApr 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-04-24-what-is-actuarial-science.html",
+    "href": "posts/2025-04-24-what-is-actuarial-science.html",
+    "title": "What is Actuarial Science?",
+    "section": "",
+    "text": "Actuarial science is a discipline that applies mathematical and statistical methods to assess risk in insurance, finance, and other industries. It involves using quantitative techniques to evaluate future events and their financial implications.\nThe path to becoming an actuary typically involves obtaining a degree in actuarial science or a related field, followed by passing a series of professional exams to become certified. Actuaries are employed by insurance companies, pension funds, and other financial institutions to analyze data and develop policies that minimize risk and ensure financial stability."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog where I share insights, tutorials, and research on actuarial science, data science, and data analysis. Use the filters to browse by category or search for specific topics.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nActuarial Science\n\n\nInsights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n1 min\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Analysis\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMortality Table Analysis with R\n\n\nExploring actuarial life tables and survival analysis\n\n\n12 min\n\n\n\nactuarial\n\n\nmortality\n\n\nR\n\n\n\n\nYour Name\n\n\nApr 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Best Practices for Actuaries\n\n\nCreating effective and insightful visualizations for actuarial reports\n\n\n14 min\n\n\n\ndata-analysis\n\n\nvisualization\n\n\nactuarial\n\n\n\n\nYour Name\n\n\nApr 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/data-science/index.html",
+    "href": "posts/data-science/index.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Explore articles focused on data science, including machine learning applications, statistical analysis, predictive modeling, and natural language processing. These posts demonstrate practical implementations using R programming.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/actuarial/index.html",
+    "href": "posts/actuarial/index.html",
+    "title": "Actuarial Science",
+    "section": "",
+    "text": "Explore articles focused on actuarial science, including risk modeling, insurance pricing, mortality analysis, pension valuation, and more. These posts combine theoretical concepts with practical applications using R programming.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMortality Table Analysis with R\n\n\nExploring actuarial life tables and survival analysis\n\n\n12 min\n\n\n\nactuarial\n\n\nmortality\n\n\nR\n\n\n\n\nYour Name\n\n\nApr 20, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Browse through my portfolio of projects in actuarial science, data science, and data analysis. Each project demonstrates practical applications of analytical techniques to solve real-world problems.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject 2\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "documentation.html#project-overview",
+    "href": "documentation.html#project-overview",
+    "title": "",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis documentation provides a comprehensive guide to the Actuarial & Data Science Hub website built with Quarto and R. The website is designed to showcase actuarial science, data science, and data analysis content with a focus on modern web development practices and SEO optimization."
+  },
+  {
+    "objectID": "documentation.html#website-structure",
+    "href": "documentation.html#website-structure",
+    "title": "",
+    "section": "Website Structure",
+    "text": "Website Structure\nThe website follows a clean, organized structure:\nquarto-website/\n├── _site/                  # Generated site (output directory)\n├── _extensions/            # Quarto extensions\n├── .github/                # GitHub Actions workflows\n├── images/                 # Website images\n├── includes/               # HTML includes and components\n├── posts/                  # Blog posts\n│   ├── actuarial/          # Actuarial science posts\n│   ├── data-science/       # Data science posts\n│   └── data-analysis/      # Data analysis posts\n├── projects/               # Project showcase\n├── about/                  # About page\n├── templates/              # Content templates\n├── _quarto.yml             # Main configuration file\n├── index.qmd               # Homepage\n├── styles.css              # Main CSS styles\n├── accessibility.css       # Accessibility enhancements\n├── performance.css         # Performance optimizations\n└── sitemap.xml             # XML sitemap template"
+  },
+  {
+    "objectID": "documentation.html#key-features",
+    "href": "documentation.html#key-features",
+    "title": "",
+    "section": "Key Features",
+    "text": "Key Features\n\nBlog System\n\nCategory/tag system with filterable posts\nInteractive elements (dynamic R visualizations, code toggles)\nSearch functionality\nRSS feed generation\nComments/feedback system (Giscus)\n\n\n\nSEO Optimization\n\nSchema markup for blog posts\nAutomatic sitemap.xml generation\nMeta descriptions and OpenGraph tags\nCanonical URL management\nAlt-text optimization guidelines\n\n\n\nTechnical Implementation\n\nQuarto framework with R integration\nGitHub Pages deployment via GitHub Actions\nFast load times (optimized assets, lazy loading)\nAccessible design (WCAG 2.1 compliance)\nSocial media sharing integrations\n\n\n\nContent Strategy\n\nBlog post template with standardized front matter\nAutomatic date-based post organization\nRelated posts suggestions\nAuthor bio schema integration\nNewsletter subscription option\n\n\n\nInteractivity\n\nLive R code execution\nInteractive charts (Plotly)\nDynamic tables with filtering\nProgressive disclosure for technical content"
+  },
+  {
+    "objectID": "documentation.html#getting-started",
+    "href": "documentation.html#getting-started",
+    "title": "",
+    "section": "Getting Started",
+    "text": "Getting Started\n\nPrerequisites\n\nQuarto (v1.3.0 or higher)\nR (v4.2.0 or higher)\nRequired R packages (see below)\n\n\n\nRequired R Packages\n# Core packages\ninstall.packages(c(\"tidyverse\", \"knitr\", \"rmarkdown\"))\n\n# Visualization packages\ninstall.packages(c(\"plotly\", \"ggplot2\", \"viridis\", \"scales\", \"ggridges\", \"patchwork\"))\n\n# Table formatting\ninstall.packages(c(\"DT\", \"kableExtra\"))\n\n# Actuarial packages\ninstall.packages(c(\"lifecontingencies\", \"actuar\"))\n\n# Machine learning packages\ninstall.packages(c(\"caret\", \"randomForest\", \"xgboost\", \"gbm\"))\n\n\nLocal Development\n\nClone the repository:\n\ngit clone https://github.com/username/quarto-website.git\ncd quarto-website\n\nPreview the website locally:\n\nquarto preview\n\nBuild the website:\n\nquarto render"
+  },
+  {
+    "objectID": "documentation.html#content-creation-guide",
+    "href": "documentation.html#content-creation-guide",
+    "title": "",
+    "section": "Content Creation Guide",
+    "text": "Content Creation Guide\n\nCreating a New Blog Post\n\nChoose the appropriate category folder (actuarial, data-science, or data-analysis)\nCopy the blog post template from templates/blog-post-template.qmd\nRename the file with a descriptive slug (e.g., mortality-analysis.qmd)\nFill in the YAML front matter with appropriate metadata\nWrite your content following the template structure\nAdd images to the images folder and reference them in your post\nPreview your post locally before committing\n\nExample front matter:\n---\ntitle: \"Mortality Table Analysis with R\"\nsubtitle: \"Exploring actuarial life tables and survival analysis\"\ndescription: \"A comprehensive analysis of mortality tables using R, with interactive visualizations and practical applications for actuaries.\"\nauthor: \"Your Name\"\ndate: \"2025-04-20\"\ncategories: [actuarial, mortality, R]\nimage: \"../../images/mortality-analysis.jpg\"\nimage-alt: \"Line graph showing mortality rates by age with exponential increase after age 60\"\n---\n\n\nAdding Interactive Elements\nRefer to templates/interactive-examples.qmd for examples of: - Live R code execution - Interactive charts with Plotly - Dynamic tables with filtering - Progressive disclosure for technical content"
+  },
+  {
+    "objectID": "documentation.html#deployment",
+    "href": "documentation.html#deployment",
+    "title": "",
+    "section": "Deployment",
+    "text": "Deployment\n\nGitHub Pages Deployment\nThe website is configured to deploy automatically to GitHub Pages using GitHub Actions. The workflow is defined in .github/workflows/publish.yml.\nTo set up deployment:\n\nPush your repository to GitHub\nEnsure the repository is public or you have GitHub Pages enabled for private repositories\nGitHub Actions will automatically build and deploy the site when changes are pushed to the main branch\nThe site will be available at https://username.github.io/quarto-website/\n\n\n\nCustom Domain (Optional)\nTo use a custom domain:\n\nPurchase a domain from a domain registrar\nAdd a CNAME file to the root of your repository with your domain name\nConfigure your domain’s DNS settings according to GitHub Pages documentation"
+  },
+  {
+    "objectID": "documentation.html#seo-best-practices",
+    "href": "documentation.html#seo-best-practices",
+    "title": "",
+    "section": "SEO Best Practices",
+    "text": "SEO Best Practices\n\nMetadata\nEnsure each page has: - Descriptive title (under 60 characters) - Informative subtitle - Comprehensive description (150-160 characters) - Relevant categories/tags - Featured image with alt text\n\n\nImages\nFollow the alt text guidelines in includes/alt-text-guidelines.md: - Provide descriptive alt text for all images - Include relevant keywords naturally - Keep alt text concise but comprehensive (under 125 characters)\n\n\nInternal Linking\n\nLink to related content within your site\nUse descriptive anchor text\nCreate a logical hierarchy of content"
+  },
+  {
+    "objectID": "documentation.html#accessibility-compliance",
+    "href": "documentation.html#accessibility-compliance",
+    "title": "",
+    "section": "Accessibility Compliance",
+    "text": "Accessibility Compliance\nThe website is designed to meet WCAG 2.1 AA compliance:\n\nProper heading structure (H1, H2, H3, etc.)\nSufficient color contrast\nKeyboard navigation support\nScreen reader compatibility\nFocus indicators\nAlternative text for images"
+  },
+  {
+    "objectID": "documentation.html#performance-optimization",
+    "href": "documentation.html#performance-optimization",
+    "title": "",
+    "section": "Performance Optimization",
+    "text": "Performance Optimization\nPerformance optimizations include:\n\nLazy loading of images\nEfficient CSS selectors\nFont display optimization\nResponsive images\nContent-visibility for below-the-fold content"
+  },
+  {
+    "objectID": "documentation.html#customization",
+    "href": "documentation.html#customization",
+    "title": "",
+    "section": "Customization",
+    "text": "Customization\n\nTheme Customization\nModify the appearance by editing: - _quarto.yml - Change the theme or add theme options - styles.css - Customize the main styles - accessibility.css - Modify accessibility enhancements - performance.css - Adjust performance optimizations\n\n\nAdding New Sections\nTo add a new section to the website:\n\nCreate a new directory for the section\nAdd an index.qmd file in the directory\nUpdate the navigation in _quarto.yml"
+  },
+  {
+    "objectID": "documentation.html#troubleshooting",
+    "href": "documentation.html#troubleshooting",
+    "title": "",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nCommon Issues\n\nRendering errors:\n\nCheck R package dependencies are installed\nVerify code chunks execute without errors\nLook for syntax errors in YAML front matter\n\nDeployment issues:\n\nCheck GitHub Actions logs for errors\nVerify repository permissions\nEnsure GitHub Pages is enabled\n\nMissing features:\n\nCheck browser console for JavaScript errors\nVerify includes are properly referenced\nCheck file paths are correct"
+  },
+  {
+    "objectID": "documentation.html#maintenance",
+    "href": "documentation.html#maintenance",
+    "title": "",
+    "section": "Maintenance",
+    "text": "Maintenance\n\nRegular Updates\n\nKeep Quarto and R packages updated\nReview and update content periodically\nCheck for broken links\nMonitor website analytics\n\n\n\nBackup\n\nThe GitHub repository serves as version control and backup\nConsider additional backups of raw content"
+  },
+  {
+    "objectID": "documentation.html#support-and-resources",
+    "href": "documentation.html#support-and-resources",
+    "title": "",
+    "section": "Support and Resources",
+    "text": "Support and Resources\n\nQuarto Documentation\nR Markdown Guide\nGitHub Pages Documentation\nWCAG Guidelines"
+  },
+  {
+    "objectID": "documentation.html#license",
+    "href": "documentation.html#license",
+    "title": "",
+    "section": "License",
+    "text": "License\nContent is licensed under CC BY-NC-SA 4.0 unless otherwise specified.\n\nThis documentation was created on April 25, 2025."
+  },
+  {
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "todo.html#website-structure",
+    "href": "todo.html#website-structure",
+    "title": "",
+    "section": "Website Structure",
+    "text": "Website Structure\n\nCreate basic directory structure\nInstall Quarto\nCreate _quarto.yml configuration file\nCreate homepage (index.qmd)\nCreate About page\nCreate blog section with category pages\nCreate projects section"
+  },
+  {
+    "objectID": "todo.html#blog-system",
+    "href": "todo.html#blog-system",
+    "title": "",
+    "section": "Blog System",
+    "text": "Blog System\n\nSet up category/tag system with filterable posts\nCreate sample blog posts for each category\nImplement interactive elements (R visualizations, code toggles)\nSet up search functionality\nConfigure RSS feed generation\nImplement comments/feedback system"
+  },
+  {
+    "objectID": "todo.html#seo-optimization",
+    "href": "todo.html#seo-optimization",
+    "title": "",
+    "section": "SEO Optimization",
+    "text": "SEO Optimization\n\nCreate meta-tags.html with schema markup\nSet up automatic sitemap.xml generation\nConfigure canonical URL management\nCreate guidelines for alt-text optimization"
+  },
+  {
+    "objectID": "todo.html#technical-implementation",
+    "href": "todo.html#technical-implementation",
+    "title": "",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\n\nSet up GitHub Pages deployment configuration\nOptimize for fast load times\nImplement accessibility features (WCAG 2.1)\nAdd social media sharing integrations\nSet up analytics integration"
+  },
+  {
+    "objectID": "todo.html#content-strategy",
+    "href": "todo.html#content-strategy",
+    "title": "",
+    "section": "Content Strategy",
+    "text": "Content Strategy\n\nCreate blog post template with standardized front matter\nSet up automatic date-based organization\nImplement related posts suggestions\nCreate author bio schema\nAdd newsletter subscription functionality"
+  },
+  {
+    "objectID": "todo.html#interactivity",
+    "href": "todo.html#interactivity",
+    "title": "",
+    "section": "Interactivity",
+    "text": "Interactivity\n\nSet up live R code execution examples\nCreate interactive chart examples (Plotly/Leaflet)\nImplement dynamic tables with filtering\nAdd progressive disclosure for technical content"
+  },
+  {
+    "objectID": "todo.html#deliverables",
+    "href": "todo.html#deliverables",
+    "title": "",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nComplete Quarto project structure\nDeployment pipeline configuration\nSEO-optimized blog templates\nDocumentation for content updates\nPerformance optimization checklist"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html",
+    "href": "includes/alt-text-guidelines.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#purpose-of-alt-text",
+    "href": "includes/alt-text-guidelines.html#purpose-of-alt-text",
+    "title": "",
+    "section": "Purpose of Alt Text",
+    "text": "Purpose of Alt Text\nAlt text (alternative text) provides a textual alternative to non-text content on web pages. It serves several important purposes:\n\nAccessibility: Enables screen readers to describe images to visually impaired users\nSEO optimization: Helps search engines understand image content\nFallback display: Shows when images fail to load"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#general-guidelines-for-writing-effective-alt-text",
+    "href": "includes/alt-text-guidelines.html#general-guidelines-for-writing-effective-alt-text",
+    "title": "",
+    "section": "General Guidelines for Writing Effective Alt Text",
+    "text": "General Guidelines for Writing Effective Alt Text\n\nDo:\n\nKeep alt text concise (125 characters or less)\nBe specific and descriptive\nInclude keywords when relevant (but avoid keyword stuffing)\nConvey the purpose and content of the image\nUse proper grammar and punctuation\n\n\n\nDon’t:\n\nStart with “Image of…” or “Picture of…” (screen readers already announce it’s an image)\nInclude redundant information already present in surrounding text\nUse generic descriptions that don’t add value\nStuff keywords unnaturally\nLeave alt text empty for informative images"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#specific-guidelines-for-actuarial-data-science-content",
+    "href": "includes/alt-text-guidelines.html#specific-guidelines-for-actuarial-data-science-content",
+    "title": "",
+    "section": "Specific Guidelines for Actuarial & Data Science Content",
+    "text": "Specific Guidelines for Actuarial & Data Science Content\n\nCharts and Graphs\nFormat: [Chart type] of [data being shown] showing [key insight]\nExamples: - “Line graph of mortality rates by age group from 2000-2023 showing declining trends across all demographics” - “Bar chart comparing insurance premiums across different risk categories with highest rates in substandard class” - “Scatter plot showing correlation between policy age and lapse rates with clustering at policy anniversaries”\n\n\nTechnical Diagrams\nFormat: [Diagram type] illustrating [concept] with [key components]\nExamples: - “Flowchart illustrating life insurance underwriting process from application to policy issuance” - “Venn diagram showing overlapping domains of actuarial science, data science, and machine learning” - “Decision tree diagram showing claim processing logic with multiple outcome pathways”\n\n\nCode Snippets and Outputs\nFormat: [Programming language] code [purpose] with [notable features]\nExamples: - “R code implementing Gompertz-Makeham mortality model with parameter optimization” - “Python function for calculating policy reserves using multiple decrement models” - “Output table showing experience study results with actual-to-expected ratios by age band”\n\n\nMathematical Equations\nFormat: [Equation name/purpose] formula showing [variables and relationships]\nExamples: - “Net premium formula showing relationship between present value of benefits and present value of premiums” - “Credibility formula combining experience data with industry assumptions using Z-factor weighting” - “Chain ladder method equation for IBNR claim estimation using development factors”"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#implementation-in-quarto",
+    "href": "includes/alt-text-guidelines.html#implementation-in-quarto",
+    "title": "",
+    "section": "Implementation in Quarto",
+    "text": "Implementation in Quarto\nWhen adding images to your Quarto documents, use the following format:\n![Descriptive alt text here](path/to/image.jpg){fig-alt=\"Comprehensive alt text that follows these guidelines\"}\nFor R-generated plots, add the fig.alt chunk option:\n#| fig-alt: \"Detailed description of the plot following guidelines\"\nggplot(data, aes(x = age, y = mortality_rate)) +\n  geom_line() +\n  labs(title = \"Mortality Trends by Age\")"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#alt-text-review-checklist",
+    "href": "includes/alt-text-guidelines.html#alt-text-review-checklist",
+    "title": "",
+    "section": "Alt Text Review Checklist",
+    "text": "Alt Text Review Checklist\nBefore publishing content, verify that all images have alt text that:\n\nAccurately describes the image content and purpose\nIncludes relevant keywords naturally\nIs concise but comprehensive (under 125 characters)\nProvides value beyond what’s in the surrounding text\nFollows the specific format guidelines for the image type\nUses proper grammar and punctuation"
+  },
+  {
+    "objectID": "includes/alt-text-guidelines.html#examples-of-good-vs.-poor-alt-text",
+    "href": "includes/alt-text-guidelines.html#examples-of-good-vs.-poor-alt-text",
+    "title": "",
+    "section": "Examples of Good vs. Poor Alt Text",
+    "text": "Examples of Good vs. Poor Alt Text\n\nExample 1: Mortality Curve\nPoor: “Graph of mortality”\nBetter: “Mortality curve showing exponential increase in death rates after age 65”\n\n\nExample 2: Premium Calculation Flowchart\nPoor: “Premium calculation process”\nBetter: “Flowchart of premium calculation process showing risk classification, base rate selection, and adjustment factor application”\n\n\nExample 3: Residual Plot from Model\nPoor: “Model results”\nBetter: “Residual plot from GLM model showing heteroscedasticity in claim frequency predictions for high-risk policies”"
+  }
+]
