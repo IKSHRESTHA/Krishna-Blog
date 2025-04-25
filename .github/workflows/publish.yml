@@ -25,23 +25,23 @@ jobs:
       - name: Install R Dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages:
-            - any::tidyverse
-            - any::knitr
-            - any::rmarkdown
-            - any::plotly
-            - any::DT
-            - any::kableExtra
-            - any::viridis
-            - any::scales
-            - any::ggridges
-            - any::patchwork
-            - any::lifecontingencies
-            - any::actuar
-            - any::caret
-            - any::randomForest
-            - any::xgboost
-            - any::gbm
+          packages: |
+            any::tidyverse
+            any::knitr
+            any::rmarkdown
+            any::plotly
+            any::DT
+            any::kableExtra
+            any::viridis
+            any::scales
+            any::ggridges
+            any::patchwork
+            any::lifecontingencies
+            any::actuar
+            any::caret
+            any::randomForest
+            any::xgboost
+            any::gbm
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
