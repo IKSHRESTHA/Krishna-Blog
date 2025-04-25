@@ -1,0 +1,42 @@
+name: Deploy Quarto Website
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: latest
+
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.2.3'
+
+      - name: Install R Dependencies
+        run: |
+          Rscript -e "install.packages(c('tidyverse', 'knitr', 'rmarkdown', 'plotly', 'DT', 'kableExtra', 'viridis', 'scales', 'ggridges', 'patchwork', 'lifecontingencies', 'actuar', 'caret', 'randomForest', 'xgboost', 'gbm'))"
+
+      - name: Render Quarto Website
+        run: quarto render
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
