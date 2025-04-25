@@ -1,0 +1,17 @@
+{
+  "hash": "2ff0d9186d774a24ec510de40cec5b85",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Project Two\"\ndate: 2025-04-24\ntags: [Data, Visualization]\n---\n\n\n\n\n\n# Description\n\nAnother project template.\n\n# Code\n\n## R Plot\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(pressure)\n```\n\n::: {.cell-output-display}\n![](project2_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n\n\n# Results\n\n- Example plot above.\n\n<!-- To customize: Replace with your project details -->\n",
+    "supporting": [
+      "project2_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

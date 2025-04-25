@@ -1,0 +1,20 @@
+---
+title: "Home"
+format: html
+---
+
+# About Me
+
+Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Python, and data analysis. I am passionate about leveraging analytics and actuarial science to drive business growth and informed decision-making.
+
+- **Location:** Murfreesboro, TN, USA
+- **Email:** [Krishnakumarshrestha00@gmail.com](mailto:Krishnakumarshrestha00@gmail.com)
+- **LinkedIn:** [linkedin.com/in/krishnakumarshrestha](https://linkedin.com/in/krishnakumarshrestha)
+
+## Latest Posts
+
+```{=include}
+posts/index.qmd
+```
+
+<!-- To customize: Update this section with your own summary and contact info. -->

@@ -1,0 +1,51 @@
+---
+title: "About"
+format: html
+---
+
+# About Me
+
+I am Krishna Kumar Shrestha, currently pursuing a Master’s in Actuarial Science at Middle Tennessee State University. I have hands-on experience in actuarial consulting, insurance, and teaching, with a focus on R programming, data analysis, and employee benefit valuations.
+
+## Skills
+
+- R Programming, Python, Excel (VBA)
+- Data Analysis & Visualization
+- Actuarial Valuations (IAS 19)
+- Insurance Product Development
+- Teaching & Training
+
+## Education
+
+- **M.S. in Actuarial Science** (2025–2027), Middle Tennessee State University
+- **B.Sc. in Mathematical Sciences (Actuarial Science)** (2017–2021), Tribhuvan University
+
+## Professional Experience
+
+- **Senior Consultant, Principal Risk Consulting (2022–2024):** Managed employee benefit valuation projects, ensured IAS 19 compliance, and developed benefit plans.
+- **Secretary, Actuarial Society of Nepal (2022–2025):** Organized professional events and represented the society in global initiatives.
+- **Assistant Lecturer, Tribhuvan University (2022–2024):** Taught R, Excel, and insurance analytics.
+- **Consultant, Ebeema (2022–2023):** Launched digital insurance platforms and improved customer engagement.
+- **Senior Assistant, IGI Prudential General Insurance (2021–2022):** Reviewed and processed insurance applications.
+- **Intern, Numeric Mind (2020):** Data cleaning and statistical analysis for clinical trials.
+
+## Certifications & Exams
+
+- SOA Exams: P, FM, FAM, ALTAM
+- VEE: Statistics, Accounting, Economics
+- R Number Hackathon Winner (IFoA, 2021)
+- Data Analyst Professional (2023)
+
+## Contact
+
+<form action="https://formspree.io/f/your-form-id" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" name="name" required>
+  <label for="email">Email:</label>
+  <input type="email" name="email" required>
+  <label for="message">Message:</label>
+  <textarea name="message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+<!-- To customize: Update skills, background, and form action URL -->

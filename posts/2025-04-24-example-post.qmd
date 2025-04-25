@@ -1,0 +1,51 @@
+---
+title: "Example Post: R + Python Analysis"
+date: 2025-04-24
+categories: [blog, analysis]
+---
+
+# Introduction
+
+This post demonstrates a simple analysis mixing R and Python.
+
+# Data Summary
+
+```{r}
+summary(mtcars)
+```
+
+# Python Calculation
+
+```{python}
+import pandas as pd
+pd.DataFrame({'a': [1,2], 'b': [3,4]}).describe()
+```
+
+# Figure Example
+
+```{r}
+plot(iris$Sepal.Length, iris$Sepal.Width, main="Iris Sepal")
+```
+
+# Table Example
+
+| Name | Value |
+|------|-------|
+| Foo  | 123   |
+| Bar  | 456   |
+
+# Cross-reference Example
+
+See [Figure 1](#fig-iris-sepal).
+
+# Citation Example
+
+Quarto is awesome [@quarto].
+
+# References
+
+::: {#refs}
+- @quarto: Quarto documentation, https://quarto.org
+:::
+
+<!-- To customize: Replace with your own post content -->

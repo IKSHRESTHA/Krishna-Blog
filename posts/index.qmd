@@ -1,0 +1,14 @@
+---
+title: "Blog Posts"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+# Blog Posts
+
+Below are my latest posts. Click a title to read more.
+
+<!-- This page auto-lists all posts in the posts/ folder. -->

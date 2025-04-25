@@ -1,0 +1,31 @@
+# Site-wide Quarto configuration
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Krishna Kumar Shrestha Blog's"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Blog"
+        href: posts/index.html
+    right:
+      - icon: github
+        href: https://github.com/yourusername/yourrepo
+      - icon: linkedin
+        href: https://linkedin.com/in/krishnakumarshrestha
+
+format:
+  html:
+    theme: default
+    css: styles/custom.scss
+    toc: true
+    code-fold: true
+
+extensions:
+  - quarto-lunr
+
+quarto-lunr:
+  search-index: true

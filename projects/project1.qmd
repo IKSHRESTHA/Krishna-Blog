@@ -1,0 +1,29 @@
+---
+title: "Project One"
+date: 2025-04-24
+tags: [R, Python, ML]
+---
+
+# Description
+
+A sample project demonstrating R and Python integration.
+
+# Code
+
+## R Example
+```{r}
+summary(cars)
+```
+
+## Python Example
+```{python}
+import numpy as np
+np.mean([1, 2, 3])
+```
+
+# Results
+
+- R and Python code run side by side.
+- Add figures, tables, and results here.
+
+<!-- To customize: Replace with your project details -->
