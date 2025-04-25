@@ -27,5 +27,12 @@
     "items": [
       "/posts/actuarial/mortality-analysis.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/project1.html",
+      "/projects/project2.html"
+    ]
   }
 ]

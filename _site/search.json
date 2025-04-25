@@ -103,5 +103,68 @@
     "title": "",
     "section": "Deliverables",
     "text": "Deliverables\n\nComplete Quarto project structure\nDeployment pipeline configuration\nSEO-optimized blog templates\nDocumentation for content updates\nPerformance optimization checklist"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.\nWith a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise."
+  },
+  {
+    "objectID": "about/index.html#professional-background",
+    "href": "about/index.html#professional-background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.\nWith a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise."
+  },
+  {
+    "objectID": "about/index.html#education-certifications",
+    "href": "about/index.html#education-certifications",
+    "title": "About Me",
+    "section": "Education & Certifications",
+    "text": "Education & Certifications\n\nMaster of Science in Actuarial Science\nUniversity Name, Year\nBachelor of Science in Mathematics\nUniversity Name, Year\nProfessional Certifications\n\nAssociate of the Society of Actuaries (ASA)\nChartered Enterprise Risk Analyst (CERA)\nCertified Data Scientist"
+  },
+  {
+    "objectID": "about/index.html#technical-skills",
+    "href": "about/index.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nMy technical toolkit includes:\n\nProgramming Languages: R, Python, SQL\nStatistical Methods: Regression analysis, time series forecasting, survival analysis\nMachine Learning: Supervised and unsupervised learning, deep learning\nData Visualization: ggplot2, Plotly, Shiny\nActuarial Software: Prophet, AXIS, MoSes\nVersion Control: Git, GitHub"
+  },
+  {
+    "objectID": "about/index.html#research-interests",
+    "href": "about/index.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research interests lie at the intersection of actuarial science and data science:\n\nApplying machine learning to enhance traditional actuarial models\nDeveloping predictive models for mortality and longevity risk\nExploring innovative approaches to insurance pricing and reserving\nCreating interactive tools for risk visualization and communication"
+  },
+  {
+    "objectID": "about/index.html#professional-philosophy",
+    "href": "about/index.html#professional-philosophy",
+    "title": "About Me",
+    "section": "Professional Philosophy",
+    "text": "Professional Philosophy\nI believe in the power of data to transform decision-making processes and drive innovation. My approach combines rigorous statistical methodology with practical business insights to deliver solutions that are both technically sound and actionable.\nI am committed to sharing knowledge and contributing to the advancement of both actuarial science and data science through research, teaching, and community engagement."
+  },
+  {
+    "objectID": "about/index.html#contact-me",
+    "href": "about/index.html#contact-me",
+    "title": "About Me",
+    "section": "Contact Me",
+    "text": "Contact Me\nI’m always interested in collaborating on interesting projects or discussing ideas related to actuarial science and data analytics. Feel free to reach out via email or connect with me on LinkedIn."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Browse through my portfolio of projects in actuarial science, data science, and data analysis. Each project demonstrates practical applications of analytical techniques to solve real-world problems.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nProject 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject 2\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Project 1\nProject description goes here."
   }
 ]
