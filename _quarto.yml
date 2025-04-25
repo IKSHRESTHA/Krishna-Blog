@@ -2,6 +2,8 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "!README.md"
 
 website:
   title: "Krishna Kumar Shrestha Blog's"
