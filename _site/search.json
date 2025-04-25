@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Python, and data analysis. I am passionate about leveraging analytics and actuarial science to drive business growth and informed decision-making.\n\nLocation: Murfreesboro, TN, USA\nEmail: Krishnakumarshrestha00@gmail.com\nLinkedIn: linkedin.com/in/krishnakumarshrestha"
+    "text": "Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Python, and data analysis. I am passionate about leveraging analytics and actuarial science to drive business growth and informed decision-making.\n\nLocation: Murfreesboro, TN, USA\nEmail: Krishnakumarshrestha00@gmail.com\nLinkedIn: linkedin.com/in/krishnakumarshrestha\n\n\n\ncontents: posts\nsort: \"date desc\"\nlimit: 3\ntype: default"
   },
   {
     "objectID": "projects/project2.html",
@@ -25,7 +25,7 @@
     "href": "posts/index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Blog Posts\nBelow are my latest posts. Click a title to read more.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Post: R + Python Analysis\n\n\n\n\n\n\nblog\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog Posts\nBelow are my latest posts. Click a title to read more.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Post: R + Python Analysis\n\n\n\n\n\n\nblog\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Actuarial Science and How Can You Become an Actuary?\n\n\n\n\n\n\nactuarial\n\n\ncareer\n\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -80,7 +80,14 @@
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
     "title": "Home",
-    "section": "Latest Posts",
-    "text": "Latest Posts"
+    "section": "",
+    "text": "contents: posts\nsort: \"date desc\"\nlimit: 3\ntype: default"
+  },
+  {
+    "objectID": "posts/2025-04-24-what-is-actuarial-science.html",
+    "href": "posts/2025-04-24-what-is-actuarial-science.html",
+    "title": "What is Actuarial Science and How Can You Become an Actuary?",
+    "section": "",
+    "text": "What is Actuarial Science?\nActuarial science is a discipline that applies mathematics, statistics, and financial theory to assess risk in insurance, finance, and other industries. Actuaries use their expertise to help organizations make informed decisions about uncertain future events, such as life expectancy, accident rates, or financial market fluctuations.\nActuarial science combines knowledge from mathematics, probability, statistics, economics, and computer science. The work of actuaries is crucial for designing insurance policies, pension plans, and managing financial risk for companies and governments.\n\n\nHow Can You Become an Actuary?\nBecoming an actuary typically involves the following steps:\n\nEducation:\n\nObtain a bachelor’s degree in actuarial science, mathematics, statistics, finance, or a related field.\n\nProfessional Exams:\n\nPass a series of actuarial exams administered by professional bodies such as the Society of Actuaries (SOA) or the Casualty Actuarial Society (CAS). These exams test your knowledge of probability, financial mathematics, actuarial models, and more.\n\nValidation by Educational Experience (VEE):\n\nComplete coursework in economics, accounting, and statistics as required by actuarial societies.\n\nTechnical Skills:\n\nDevelop proficiency in programming (e.g., R, Python), Excel, and data analysis tools.\n\nInternships/Experience:\n\nGain practical experience through internships or entry-level positions in insurance, consulting, or finance.\n\nCredentialing:\n\nContinue passing exams and fulfilling requirements to achieve Associate and then Fellow status in a professional actuarial organization.\n\n\nActuaries are in high demand for their analytical skills and play a vital role in helping businesses and governments manage risk and plan for the future.\n\nInterested in learning more? Explore my other posts or connect with me on LinkedIn!"
   }
 ]

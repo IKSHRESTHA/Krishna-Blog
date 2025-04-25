@@ -13,8 +13,11 @@ Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Pytho
 
 ## Latest Posts
 
-```{=include}
-posts/index.qmd
+```{listings}
+contents: posts
+sort: "date desc"
+limit: 3
+type: default
 ```
 
 <!-- To customize: Update this section with your own summary and contact info. -->
