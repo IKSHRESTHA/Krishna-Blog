@@ -1,0 +1,148 @@
+---
+title: "Post Title Here"
+subtitle: "Informative subtitle that expands on the title"
+description: "A comprehensive 150-200 character description of the post content for SEO purposes and social media sharing."
+author: "Your Name"
+date: "YYYY-MM-DD"
+date-modified: "YYYY-MM-DD"
+categories: ["example", "template"]
+image: "../images/post-thumbnail.jpg"
+image-alt: "Descriptive alt text for the post thumbnail image"
+toc: true
+toc-depth: 3
+toc-title: "Contents"
+toc-location: left
+code-fold: true
+code-tools: true
+code-link: true
+code-summary: "Show code"
+citation: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  cache: true
+format:
+  html:
+    include-after-body: 
+      - ../includes/social-sharing.html
+      - ../includes/comments.html
+    include-in-header:
+      - ../includes/blog-schema.html
+      - ../includes/canonical.html
+---
+
+```{r setup}
+#| label: setup
+#| include: false
+
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+# Add other packages as needed for this specific post
+```
+
+## Introduction
+
+Start with a compelling introduction that clearly states what the post is about and why it matters to your audience. Include:
+
+- The problem or question being addressed
+- Why this topic is important for actuaries/data scientists
+- What readers will learn or gain from this post
+- A brief roadmap of what the post will cover
+
+## Background and Context
+
+Provide necessary background information to ensure readers have the context they need to understand your analysis or discussion. This might include:
+
+- Brief overview of relevant actuarial or data science concepts
+- Summary of previous research or approaches
+- Explanation of the business or technical problem being solved
+
+## Main Content Section 1
+
+Divide your main content into logical sections with clear headings. Each section should:
+
+- Focus on a specific aspect of your topic
+- Include relevant code examples when appropriate
+- Provide visualizations that enhance understanding
+- Explain concepts clearly for both technical and non-technical readers
+
+```{r section1-code}
+#| label: section1-code
+#| fig-cap: "Descriptive figure caption that explains what the visualization shows"
+#| fig-alt: "Detailed alt text describing the visualization for accessibility"
+
+# Example code block
+# Replace with actual analysis code relevant to your post
+data <- tibble(
+  x = 1:10,
+  y = x^2
+)
+
+ggplot(data, aes(x, y)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Sample Visualization",
+    subtitle = "Replace with meaningful subtitle",
+    x = "X-axis Label",
+    y = "Y-axis Label"
+  ) +
+  theme_minimal()
+```
+
+## Main Content Section 2
+
+Continue with additional sections as needed. Consider including:
+
+- Comparative analyses
+- Case studies or examples
+- Step-by-step tutorials
+- Theoretical explanations followed by practical applications
+
+```{r section2-code}
+#| label: section2-code
+
+# Additional code example
+# Replace with actual analysis code relevant to your post
+```
+
+## Results and Discussion
+
+Summarize the key findings or insights from your analysis. This section should:
+
+- Clearly state the results and their implications
+- Discuss limitations of the approach
+- Compare with alternative methods or previous work
+- Suggest practical applications or next steps
+
+## Conclusion
+
+Wrap up your post with a strong conclusion that:
+
+- Summarizes the key points and insights
+- Reinforces the significance of the findings
+- Suggests areas for future research or exploration
+- Provides actionable takeaways for readers
+
+## References
+
+List all references cited in your post. Use proper citation format.
+
+::: {#refs}
+:::
+
+## Acknowledgments
+
+Optional section to acknowledge contributors, data sources, or other support.
+
+## About the Author
+
+Brief bio highlighting your expertise and background relevant to the post topic. Include:
+
+- Professional role and experience
+- Relevant credentials or certifications
+- Areas of specialization or research interests
+- How readers can connect with you (LinkedIn, Twitter, etc.)

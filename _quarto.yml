@@ -1,33 +1,85 @@
-# Site-wide Quarto configuration
 project:
   type: website
   output-dir: _site
-  render:
-    - "!README.md"
 
 website:
-  title: "Krishna Kumar Shrestha Blog's"
+  title: "Actuarial & Data Science Hub"
+  description: "Personal website focused on actuarial science, data science, and data analysis"
+  repo-url: https://github.com/username/quarto-website
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
   navbar:
+    logo: "images/logo.png"
+    background: primary
+    search: true
     left:
-      - text: "Home"
-        href: index.html
+      - href: index.qmd
+        text: Home
+      - href: about/index.qmd
+        text: About
       - text: "Blog"
-        href: posts/index.html
+        menu:
+          - text: "All Posts"
+            href: posts/_index.qmd
+          - text: "Actuarial Science"
+            href: posts/actuarial/index.qmd
+          - text: "Data Science"
+            href: posts/data-science/index.qmd
+          - text: "Data Analysis"
+            href: posts/data-analysis/index.qmd
+      - href: projects/index.qmd
+        text: Projects
     right:
+      - icon: rss
+        href: index.xml
       - icon: github
-        href: https://github.com/yourusername/yourrepo
+        href: https://github.com/username
       - icon: linkedin
-        href: https://linkedin.com/in/krishnakumarshrestha
+        href: https://linkedin.com/in/username
+  page-footer:
+    left: |
+      © 2025 Your Name. All content licensed under 
+      [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: |
+      Made with [Quarto](https://quarto.org/) | 
+      [Privacy Policy](/privacy.html)
 
 format:
   html:
-    theme: default
-    css: styles/custom.scss
+    theme: cosmo
+    css: styles.css
     toc: true
-    code-fold: true
+    code-copy: true
+    code-tools: true
+    code-link: true
+    highlight-style: github
+    mainfont: "Roboto, sans-serif"
+    monofont: "Fira Code, monospace"
+    include-in-header:
+      - file: includes/meta-tags.html
+      - file: includes/analytics.html
+    anchor-sections: true
+    fig-responsive: true
+    execute:
+      freeze: auto
+      cache: true
 
-extensions:
-  - quarto-lunr
+feed:
+  categories: [actuarial, data-science, data-analysis]
+  items: 20
+  language: en-US
 
-quarto-lunr:
-  search-index: true
+search: true
+
+comments:
+  giscus:
+    repo: username/quarto-website
+    repo-id: your-repo-id
+    category: Comments
+    category-id: your-category-id
+    mapping: pathname
+    reactions-enabled: true
+    loading: lazy
+    input-position: bottom
+    theme: light

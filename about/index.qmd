@@ -1,0 +1,66 @@
+---
+title: "About Me"
+subtitle: "Actuary & Data Scientist"
+image: "../images/profile.jpg"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/username
+    - icon: github
+      text: Github
+      href: https://github.com/username
+    - icon: envelope
+      text: Email
+      href: mailto:email@example.com
+---
+
+## Professional Background
+
+I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.
+
+With a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise.
+
+## Education & Certifications
+
+- **Master of Science in Actuarial Science**  
+  University Name, Year
+  
+- **Bachelor of Science in Mathematics**  
+  University Name, Year
+  
+- **Professional Certifications**
+  - Associate of the Society of Actuaries (ASA)
+  - Chartered Enterprise Risk Analyst (CERA)
+  - Certified Data Scientist
+
+## Technical Skills
+
+My technical toolkit includes:
+
+- **Programming Languages**: R, Python, SQL
+- **Statistical Methods**: Regression analysis, time series forecasting, survival analysis
+- **Machine Learning**: Supervised and unsupervised learning, deep learning
+- **Data Visualization**: ggplot2, Plotly, Shiny
+- **Actuarial Software**: Prophet, AXIS, MoSes
+- **Version Control**: Git, GitHub
+
+## Research Interests
+
+My research interests lie at the intersection of actuarial science and data science:
+
+- Applying machine learning to enhance traditional actuarial models
+- Developing predictive models for mortality and longevity risk
+- Exploring innovative approaches to insurance pricing and reserving
+- Creating interactive tools for risk visualization and communication
+
+## Professional Philosophy
+
+I believe in the power of data to transform decision-making processes and drive innovation. My approach combines rigorous statistical methodology with practical business insights to deliver solutions that are both technically sound and actionable.
+
+I am committed to sharing knowledge and contributing to the advancement of both actuarial science and data science through research, teaching, and community engagement.
+
+## Contact Me
+
+I'm always interested in collaborating on interesting projects or discussing ideas related to actuarial science and data analytics. Feel free to reach out via [email](mailto:email@example.com) or connect with me on [LinkedIn](https://linkedin.com/in/username).

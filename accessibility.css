@@ -1,0 +1,151 @@
+/* Accessibility enhancements for Quarto website */
+
+/* Focus indicators */
+:focus {
+  outline: 3px solid #3498db !important;
+  outline-offset: 2px !important;
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #2c3e50;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Improved color contrast */
+.text-muted {
+  color: #5a6268 !important; /* Darker than default for better contrast */
+}
+
+/* Ensure sufficient text spacing */
+p, li, td, th {
+  line-height: 1.5;
+  word-spacing: 0.16em;
+}
+
+/* Responsive font sizes */
+html {
+  font-size: 100%; /* Base font size */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+/* Keyboard navigation improvements */
+button, a {
+  transition: outline-offset 0.2s linear;
+}
+
+button:focus, a:focus {
+  outline-offset: 3px;
+}
+
+/* Form accessibility */
+input, select, textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* ARIA landmarks */
+main, nav, footer, aside {
+  display: block;
+}
+
+/* Table accessibility */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Accessible tooltips */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text,
+.tooltip:focus .tooltip-text,
+.tooltip:focus-within .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Accessible tabs */
+.nav-tabs .nav-link {
+  padding: 0.75rem 1rem;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: 600;
+}
+
+/* Accessible buttons */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  .btn, .card, .nav-link {
+    border: 1px solid;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

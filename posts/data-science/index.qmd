@@ -1,0 +1,19 @@
+---
+title: "Data Science"
+subtitle: "Insights on Machine Learning, Statistical Analysis, and Predictive Modeling"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  feed: true
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  image-height: 200px
+  image-placeholder: "../../images/placeholder.jpg"
+page-layout: full
+---
+
+Explore articles focused on data science, including machine learning applications, statistical analysis, predictive modeling, and natural language processing. These posts demonstrate practical implementations using R programming.

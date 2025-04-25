@@ -1,7 +1,25 @@
 {
   "listingMap": {
+    "index.qmd": [
+      "posts/*/*.qmd",
+      "projects/*.qmd"
+    ],
+    "posts\\actuarial\\index.qmd": [
+      "*.qmd"
+    ],
+    "posts\\data-analysis\\index.qmd": [
+      "*.qmd"
+    ],
+    "posts\\data-science\\index.qmd": [
+      "*.qmd"
+    ],
     "posts\\index.qmd": [
-      "."
+      "actuarial/*",
+      "data-science/*",
+      "data-analysis/*"
+    ],
+    "projects\\index.qmd": [
+      "*.qmd"
     ]
   }
 }

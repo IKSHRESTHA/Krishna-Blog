@@ -1,0 +1,203 @@
+<!-- Newsletter Subscription Form -->
+<div class="newsletter-container">
+  <h3>Subscribe to Our Newsletter</h3>
+  <p>Stay updated with the latest insights in actuarial science and data analysis. No spam, just valuable content delivered to your inbox.</p>
+  
+  <form id="newsletter-form" class="newsletter-form">
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="name">Name (Optional)</label>
+      <input type="text" id="name" name="name" placeholder="Your Name">
+    </div>
+    
+    <div class="form-group interests-group">
+      <p>I'm interested in (select all that apply):</p>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" name="interests" value="actuarial"> Actuarial Science
+        </label>
+        <label>
+          <input type="checkbox" name="interests" value="data-science"> Data Science
+        </label>
+        <label>
+          <input type="checkbox" name="interests" value="data-analysis"> Data Analysis
+        </label>
+      </div>
+    </div>
+    
+    <div class="form-group consent-group">
+      <label>
+        <input type="checkbox" name="consent" required>
+        I agree to receive email newsletters and understand I can unsubscribe at any time.
+      </label>
+    </div>
+    
+    <button type="submit" class="subscribe-button">Subscribe</button>
+  </form>
+  
+  <div id="newsletter-success" class="newsletter-message success" style="display: none;">
+    Thank you for subscribing! Please check your email to confirm your subscription.
+  </div>
+  
+  <div id="newsletter-error" class="newsletter-message error" style="display: none;">
+    There was an error processing your subscription. Please try again later.
+  </div>
+</div>
+
+<style>
+.newsletter-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.newsletter-container h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.newsletter-form {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.checkbox-group input {
+  margin-right: 0.5rem;
+}
+
+.consent-group label {
+  display: flex;
+  align-items: flex-start;
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.consent-group input {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.subscribe-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.subscribe-button:hover {
+  background-color: #2980b9;
+}
+
+.newsletter-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.newsletter-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.newsletter-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 576px) {
+  .checkbox-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('newsletter-form');
+  const successMessage = document.getElementById('newsletter-success');
+  const errorMessage = document.getElementById('newsletter-error');
+  
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // In a real implementation, you would send the form data to your newsletter service
+      // For this template, we'll simulate a successful submission
+      
+      // Hide the form and show success message
+      form.style.display = 'none';
+      successMessage.style.display = 'block';
+      
+      // You would typically have code like this:
+      /*
+      fetch('your-newsletter-api-endpoint', {
+        method: 'POST',
+        body: new FormData(form),
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          form.style.display = 'none';
+          successMessage.style.display = 'block';
+        } else {
+          errorMessage.style.display = 'block';
+          errorMessage.textContent = data.message || 'There was an error processing your subscription.';
+        }
+      })
+      .catch(error => {
+        errorMessage.style.display = 'block';
+        console.error('Newsletter submission error:', error);
+      });
+      */
+    });
+  }
+});
+</script>

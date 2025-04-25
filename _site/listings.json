@@ -1,9 +1,31 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/posts/actuarial/index.html",
+      "/posts/data-analysis/index.html",
+      "/posts/data-science/index.html",
+      "/posts/actuarial/mortality-analysis.html",
+      "/posts/data-analysis/data-visualization-best-practices.html",
+      "/projects/index.html",
+      "/projects/project1.html",
+      "/projects/project2.html"
+    ]
+  },
+  {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/2025-04-24-example-post.html",
-      "/posts/2025-04-24-what-is-actuarial-science.html"
+      "/posts/actuarial/index.html",
+      "/posts/data-science/index.html",
+      "/posts/data-analysis/index.html",
+      "/posts/actuarial/mortality-analysis.html",
+      "/posts/data-analysis/data-visualization-best-practices.html"
+    ]
+  },
+  {
+    "listing": "/posts/actuarial/index.html",
+    "items": [
+      "/posts/actuarial/mortality-analysis.html"
     ]
   }
 ]

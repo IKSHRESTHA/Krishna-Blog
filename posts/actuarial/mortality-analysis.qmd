@@ -1,0 +1,506 @@
+---
+title: "Mortality Table Analysis with R"
+subtitle: "Exploring actuarial life tables and survival analysis"
+author: "Your Name"
+date: "2025-04-20"
+categories: [actuarial, mortality, R]
+image: "../../images/placeholder.jpg"
+description: "A comprehensive analysis of mortality tables using R, with interactive visualizations and practical applications for actuaries."
+toc: true
+toc-depth: 3
+code-fold: true
+code-tools: true
+code-link: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r setup}
+#| label: setup
+#| include: false
+
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(plotly)
+library(lifecontingencies)
+library(actuar)
+```
+
+## Introduction
+
+Mortality tables are fundamental tools in actuarial science, providing the foundation for life insurance pricing, pension valuations, and demographic studies. This post explores how to work with mortality data in R, create visualizations, and perform key actuarial calculations.
+
+### What are Mortality Tables?
+
+Mortality tables (also called life tables) present the probability of death for individuals at different ages. They typically include:
+
+- Age ($x$)
+- Number of survivors to age $x$ ($l_x$)
+- Number of deaths between ages $x$ and $x+1$ ($d_x$)
+- Probability of death between ages $x$ and $x+1$ ($q_x$)
+- Probability of survival from age $x$ to $x+1$ ($p_x$)
+- Life expectancy at age $x$ ($e_x$)
+
+These tables form the statistical basis for calculating premiums, reserves, and other actuarial values.
+
+## Creating a Basic Mortality Table in R
+
+Let's start by creating a simple mortality table using the Gompertz-Makeham law of mortality, which is commonly used in actuarial work.
+
+```{r mortality-table}
+#| label: mortality-table
+
+# Define parameters for Gompertz-Makeham law
+alpha <- 0.0002  # Constant component
+beta <- 0.00001  # Age-dependent component (base)
+gamma <- 0.1     # Age-dependent component (exponential)
+
+# Create age range
+ages <- 0:100
+
+# Calculate mortality rates using Gompertz-Makeham formula
+qx <- alpha + beta * exp(gamma * ages)
+
+# Ensure probabilities are between 0 and 1
+qx <- pmin(qx, 1)
+
+# Calculate survival probabilities
+px <- 1 - qx
+
+# Calculate number of survivors (starting with 100,000 lives)
+lx <- numeric(length(ages))
+lx[1] <- 100000
+for (i in 2:length(ages)) {
+  lx[i] <- lx[i-1] * px[i-1]
+}
+
+# Calculate deaths
+dx <- numeric(length(ages))
+for (i in 1:(length(ages)-1)) {
+  dx[i] <- lx[i] - lx[i+1]
+}
+dx[length(ages)] <- lx[length(ages)]
+
+# Create mortality table
+mortality_table <- data.frame(
+  Age = ages,
+  qx = qx,
+  px = px,
+  lx = lx,
+  dx = dx
+)
+
+# Display first 10 rows of the table
+kable(head(mortality_table, 10), 
+      caption = "Mortality Table (First 10 Ages)",
+      digits = 5,
+      format.args = list(big.mark = ",")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+## Visualizing Mortality Data
+
+Visualization is crucial for understanding mortality patterns. Let's create some interactive plots to explore our mortality table.
+
+### Mortality Rates by Age
+
+```{r mortality-plot}
+#| label: mortality-plot
+
+p <- ggplot(mortality_table, aes(x = Age, y = qx)) +
+  geom_line(color = "#3498db", size = 1) +
+  labs(
+    title = "Mortality Rates by Age",
+    subtitle = "Based on Gompertz-Makeham Law",
+    x = "Age",
+    y = "Probability of Death (qx)",
+    caption = "Source: Simulated data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "gray50")
+  )
+
+# Convert to interactive plot
+ggplotly(p) %>%
+  layout(hovermode = "x unified")
+```
+
+### Survival Curve
+
+The survival curve shows the number of survivors at each age from an initial population.
+
+```{r survival-curve}
+#| label: survival-curve
+
+p2 <- ggplot(mortality_table, aes(x = Age, y = lx)) +
+  geom_line(color = "#2c3e50", size = 1) +
+  labs(
+    title = "Survival Curve",
+    subtitle = "Number of Survivors by Age (from 100,000 initial lives)",
+    x = "Age",
+    y = "Number of Survivors (lx)",
+    caption = "Source: Simulated data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "gray50")
+  )
+
+# Convert to interactive plot
+ggplotly(p2) %>%
+  layout(hovermode = "x unified")
+```
+
+## Calculating Life Expectancy
+
+Life expectancy is a key metric derived from mortality tables. Let's calculate and visualize life expectancy at different ages.
+
+```{r life-expectancy}
+#| label: life-expectancy
+
+# Calculate temporary life expectancies
+calculate_ex <- function(mortality_table) {
+  ages <- mortality_table$Age
+  lx <- mortality_table$lx
+  n <- length(ages)
+  
+  # Initialize ex vector
+  ex <- numeric(n)
+  
+  for (i in 1:n) {
+    # Sum of lx+t for t > 0
+    future_lx_sum <- sum(lx[(i+1):n])
+    
+    # Life expectancy formula: sum of lx+t / lx
+    ex[i] <- future_lx_sum / lx[i]
+  }
+  
+  return(ex)
+}
+
+# Add life expectancy to the table
+mortality_table$ex <- calculate_ex(mortality_table)
+
+# Visualize life expectancy
+p3 <- ggplot(mortality_table, aes(x = Age, y = ex)) +
+  geom_line(color = "#e74c3c", size = 1) +
+  labs(
+    title = "Life Expectancy by Age",
+    subtitle = "Expected remaining years of life",
+    x = "Age",
+    y = "Life Expectancy (ex)",
+    caption = "Source: Simulated data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "gray50")
+  )
+
+# Convert to interactive plot
+ggplotly(p3) %>%
+  layout(hovermode = "x unified")
+```
+
+## Actuarial Present Values
+
+Now let's calculate some actuarial present values, which are essential for insurance and annuity pricing.
+
+### Present Value of Life Annuity
+
+```{r annuity-values}
+#| label: annuity-values
+
+# Set interest rate
+interest_rate <- 0.03
+
+# Calculate discount factor
+v <- 1 / (1 + interest_rate)
+
+# Calculate annuity values
+calculate_annuity <- function(mortality_table, interest_rate) {
+  ages <- mortality_table$Age
+  lx <- mortality_table$lx
+  n <- length(ages)
+  
+  # Initialize annuity value vector
+  ax <- numeric(n)
+  
+  for (i in 1:n) {
+    # Sum of v^t * lx+t / lx for t > 0
+    pv_sum <- 0
+    for (t in 1:(n-i)) {
+      pv_sum <- pv_sum + (1 / (1 + interest_rate))^t * lx[i+t] / lx[i]
+    }
+    
+    ax[i] <- pv_sum
+  }
+  
+  return(ax)
+}
+
+# Add annuity values to the table
+mortality_table$ax <- calculate_annuity(mortality_table, interest_rate)
+
+# Display annuity values for selected ages
+selected_ages <- c(20, 30, 40, 50, 60, 65, 70, 80, 90)
+annuity_table <- mortality_table[mortality_table$Age %in% selected_ages, c("Age", "ax")]
+
+kable(annuity_table, 
+      caption = paste0("Present Value of Life Annuity (Interest Rate = ", interest_rate*100, "%)"),
+      col.names = c("Age", "Annuity Value (ax)"),
+      digits = 4) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Term Life Insurance Values
+
+```{r insurance-values}
+#| label: insurance-values
+
+# Calculate term life insurance values
+calculate_term_insurance <- function(mortality_table, interest_rate, term) {
+  ages <- mortality_table$Age
+  qx <- mortality_table$qx
+  px <- mortality_table$px
+  n <- length(ages)
+  
+  # Initialize insurance value vector
+  Ax <- numeric(n)
+  
+  for (i in 1:(n-term)) {
+    # Calculate term insurance value
+    value <- 0
+    cum_prob <- 1
+    
+    for (t in 0:(term-1)) {
+      if (i+t <= n) {
+        # Probability of death in year t
+        death_prob <- cum_prob * qx[i+t]
+        
+        # Present value of benefit
+        pv_benefit <- (1 / (1 + interest_rate))^(t+1) * death_prob
+        
+        value <- value + pv_benefit
+        
+        # Update cumulative survival probability
+        cum_prob <- cum_prob * px[i+t]
+      }
+    }
+    
+    Ax[i] <- value
+  }
+  
+  return(Ax)
+}
+
+# Calculate 10-year term insurance values
+term <- 10
+mortality_table$A10x <- calculate_term_insurance(mortality_table, interest_rate, term)
+
+# Display insurance values for selected ages
+insurance_table <- mortality_table[mortality_table$Age %in% selected_ages, c("Age", "A10x")]
+
+kable(insurance_table, 
+      caption = paste0(term, "-Year Term Life Insurance Values (Interest Rate = ", interest_rate*100, "%)"),
+      col.names = c("Age", "Insurance Value (A10x)"),
+      digits = 4) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+## Comparing Different Mortality Tables
+
+In practice, actuaries often need to compare different mortality tables. Let's create a second table using a different mortality law and compare them.
+
+```{r compare-tables}
+#| label: compare-tables
+
+# Create a second mortality table using Weibull distribution
+shape <- 2.5
+scale <- 80
+
+# Calculate mortality rates using Weibull
+qx_weibull <- pweibull(ages+1, shape, scale) - pweibull(ages, shape, scale)
+qx_weibull <- qx_weibull / (1 - pweibull(ages, shape, scale))
+qx_weibull[is.nan(qx_weibull)] <- 1
+
+# Calculate survival probabilities
+px_weibull <- 1 - qx_weibull
+
+# Calculate number of survivors
+lx_weibull <- numeric(length(ages))
+lx_weibull[1] <- 100000
+for (i in 2:length(ages)) {
+  lx_weibull[i] <- lx_weibull[i-1] * px_weibull[i-1]
+}
+
+# Create comparison data frame
+comparison_data <- data.frame(
+  Age = rep(ages, 2),
+  qx = c(qx, qx_weibull),
+  Model = rep(c("Gompertz-Makeham", "Weibull"), each = length(ages))
+)
+
+# Create comparison plot
+p4 <- ggplot(comparison_data, aes(x = Age, y = qx, color = Model)) +
+  geom_line(size = 1) +
+  scale_color_manual(values = c("#3498db", "#e74c3c")) +
+  labs(
+    title = "Comparison of Mortality Models",
+    subtitle = "Gompertz-Makeham vs. Weibull",
+    x = "Age",
+    y = "Probability of Death (qx)",
+    caption = "Source: Simulated data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "gray50"),
+    legend.position = "bottom"
+  )
+
+# Convert to interactive plot
+ggplotly(p4) %>%
+  layout(hovermode = "x unified")
+```
+
+## Practical Applications
+
+### Premium Calculation Example
+
+Let's calculate a simple premium for a 10-year term life insurance policy with a $100,000 benefit.
+
+```{r premium-calculation}
+#| label: premium-calculation
+
+# Function to calculate net single premium
+calculate_nsp <- function(age, term, benefit, mortality_table, interest_rate) {
+  # Get index for the age
+  age_index <- which(mortality_table$Age == age)
+  
+  if (length(age_index) == 0) {
+    return(NA)
+  }
+  
+  # Get term insurance value
+  A_term <- mortality_table$A10x[age_index]
+  
+  # Calculate net single premium
+  nsp <- benefit * A_term
+  
+  return(nsp)
+}
+
+# Function to calculate annual premium
+calculate_annual_premium <- function(age, term, benefit, mortality_table, interest_rate) {
+  # Get index for the age
+  age_index <- which(mortality_table$Age == age)
+  
+  if (length(age_index) == 0) {
+    return(NA)
+  }
+  
+  # Get term insurance value and annuity value
+  A_term <- mortality_table$A10x[age_index]
+  
+  # Calculate annuity value for term years
+  ax_term <- 0
+  cum_prob <- 1
+  v <- 1 / (1 + interest_rate)
+  
+  for (t in 0:(term-1)) {
+    if (age_index + t <= nrow(mortality_table)) {
+      ax_term <- ax_term + v^t * cum_prob
+      cum_prob <- cum_prob * mortality_table$px[age_index + t]
+    }
+  }
+  
+  # Calculate annual premium
+  annual_premium <- benefit * A_term / ax_term
+  
+  return(annual_premium)
+}
+
+# Calculate premiums for different ages
+premium_ages <- c(25, 30, 35, 40, 45, 50, 55, 60)
+benefit <- 100000
+term <- 10
+
+# Calculate premiums
+nsp_values <- sapply(premium_ages, calculate_nsp, term = term, benefit = benefit, 
+                    mortality_table = mortality_table, interest_rate = interest_rate)
+annual_premiums <- sapply(premium_ages, calculate_annual_premium, term = term, benefit = benefit, 
+                         mortality_table = mortality_table, interest_rate = interest_rate)
+
+# Create premium table
+premium_table <- data.frame(
+  Age = premium_ages,
+  NSP = nsp_values,
+  Annual_Premium = annual_premiums
+)
+
+kable(premium_table, 
+      caption = paste0("10-Year Term Life Insurance Premiums ($", format(benefit, big.mark = ","), " Benefit)"),
+      col.names = c("Age", "Net Single Premium ($)", "Annual Premium ($)"),
+      digits = 2,
+      format.args = list(big.mark = ",")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Visualizing Premium Trends
+
+```{r premium-trends}
+#| label: premium-trends
+
+# Create premium trend plot
+p5 <- ggplot(premium_table, aes(x = Age, y = Annual_Premium)) +
+  geom_line(color = "#2c3e50", size = 1) +
+  geom_point(color = "#3498db", size = 3) +
+  labs(
+    title = "Annual Premium by Age",
+    subtitle = paste0("10-Year Term Life Insurance ($", format(benefit, big.mark = ","), " Benefit)"),
+    x = "Age",
+    y = "Annual Premium ($)",
+    caption = "Source: Simulated data"
+  ) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "gray50")
+  )
+
+# Convert to interactive plot
+ggplotly(p5) %>%
+  layout(hovermode = "x unified")
+```
+
+## Conclusion
+
+This post has demonstrated how to work with mortality tables in R, from basic construction to practical applications in insurance pricing. The interactive visualizations help in understanding the patterns and relationships in mortality data.
+
+For actuaries and data scientists, R provides powerful tools for mortality analysis, allowing for sophisticated modeling and visualization that can enhance decision-making in insurance and pension contexts.
+
+In future posts, we'll explore more advanced topics such as:
+
+- Stochastic mortality modeling
+- Multi-state models for health insurance
+- Bayesian approaches to mortality projection
+- Machine learning applications in mortality analysis
+
+## References
+
+1. Dickson, D. C., Hardy, M. R., & Waters, H. R. (2013). *Actuarial Mathematics for Life Contingent Risks*. Cambridge University Press.
+
+2. Bowers, N. L., Gerber, H. U., Hickman, J. C., Jones, D. A., & Nesbitt, C. J. (1997). *Actuarial Mathematics*. Society of Actuaries.
+
+3. Charpentier, A. (2014). *Computational Actuarial Science with R*. CRC Press.
+
+4. Society of Actuaries. (2019). *Life Tables and Mortality Models*. Education and Examination Committee of the Society of Actuaries.

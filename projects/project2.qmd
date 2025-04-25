@@ -1,22 +1,8 @@
 ---
-title: "Project Two"
-date: 2025-04-24
-tags: [Data, Visualization]
+title: "Project 2"
+date: 2025-04-25
 ---
 
-# Description
+# Project 2
 
-Another project template.
-
-# Code
-
-## R Plot
-```{r}
-plot(pressure)
-```
-
-# Results
-
-- Example plot above.
-
-<!-- To customize: Replace with your project details -->
+Project description goes here.

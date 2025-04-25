@@ -1,0 +1,122 @@
+<!-- Author Bio Schema Integration -->
+<div class="author-bio" itemscope itemtype="https://schema.org/Person">
+  <div class="author-image">
+    <img src="{{< meta author-image >}}" alt="{{< meta author >}}" itemprop="image">
+  </div>
+  <div class="author-info">
+    <h3 itemprop="name">{{< meta author >}}</h3>
+    <p class="author-title" itemprop="jobTitle">{{< meta author-title >}}</p>
+    <p class="author-description" itemprop="description">{{< meta author-description >}}</p>
+    <div class="author-social">
+      {{#meta.author-linkedin}}
+      <a href="{{< meta author-linkedin >}}" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+        <span class="sr-only">LinkedIn</span>
+      </a>
+      {{/meta.author-linkedin}}
+      
+      {{#meta.author-twitter}}
+      <a href="{{< meta author-twitter >}}" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+        <span class="sr-only">Twitter</span>
+      </a>
+      {{/meta.author-twitter}}
+      
+      {{#meta.author-github}}
+      <a href="{{< meta author-github >}}" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+        <span class="sr-only">GitHub</span>
+      </a>
+      {{/meta.author-github}}
+      
+      {{#meta.author-website}}
+      <a href="{{< meta author-website >}}" itemprop="url" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-globe"></i>
+        <span class="sr-only">Website</span>
+      </a>
+      {{/meta.author-website}}
+      
+      {{#meta.author-email}}
+      <a href="mailto:{{< meta author-email >}}" itemprop="email">
+        <i class="bi bi-envelope"></i>
+        <span class="sr-only">Email</span>
+      </a>
+      {{/meta.author-email}}
+    </div>
+  </div>
+</div>
+
+<style>
+.author-bio {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.author-image {
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.author-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  flex-grow: 1;
+}
+
+.author-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.author-title {
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.author-description {
+  margin-bottom: 1rem;
+}
+
+.author-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.author-social a {
+  color: #495057;
+  font-size: 1.25rem;
+  transition: color 0.2s;
+}
+
+.author-social a:hover {
+  color: #3498db;
+}
+
+@media (max-width: 576px) {
+  .author-bio {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .author-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .author-social {
+    justify-content: center;
+  }
+}
+</style>

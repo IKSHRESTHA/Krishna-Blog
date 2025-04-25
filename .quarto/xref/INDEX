@@ -1,23 +1,56 @@
 {
   "index.qmd": {
-    "index.html": "d27789c5"
+    "index.html": "65e11498"
+  },
+  "about/index.qmd": {
+    "index.html": "fca457aa"
   },
   "about.qmd": {
-    "about.html": "f7cad9f9"
+    "about.html": "44911a02"
+  },
+  "documentation.md": {
+    "documentation.html": "2ab6ddde"
+  },
+  "includes/alt-text-guidelines.md": {
+    "alt-text-guidelines.html": "99bc00e6"
   },
   "posts/2025-04-24-example-post.qmd": {
-    "2025-04-24-example-post.html": "69d20007"
-  },
-  "posts/index.qmd": {
-    "index.html": "45f0d8ee"
-  },
-  "projects/project1.qmd": {
-    "project1.html": "23c0de24"
-  },
-  "projects/project2.qmd": {
-    "project2.html": "99a16ede"
+    "2025-04-24-example-post.html": "e6bf8c29"
   },
   "posts/2025-04-24-what-is-actuarial-science.qmd": {
-    "2025-04-24-what-is-actuarial-science.html": "7721f6ef"
+    "2025-04-24-what-is-actuarial-science.html": "c8d20a4c"
+  },
+  "posts/actuarial/index.qmd": {
+    "index.html": "e813631a"
+  },
+  "posts/actuarial/mortality-analysis.qmd": {
+    "mortality-analysis.html": "0042b4ca"
+  },
+  "posts/data-analysis/data-visualization-best-practices.qmd": {
+    "data-visualization-best-practices.html": "45c1b7ad"
+  },
+  "posts/data-analysis/index.qmd": {
+    "index.html": "e7d3ac80"
+  },
+  "posts/data-science/index.qmd": {
+    "index.html": "595fd146"
+  },
+  "posts/index.qmd": {
+    "index.html": "451df270"
+  },
+  "projects/index.qmd": {
+    "index.html": "935b9f21"
+  },
+  "projects/project1.qmd": {
+    "project1.html": "218758d9"
+  },
+  "projects/project2.qmd": {
+    "project2.html": "3e25e3ef"
+  },
+  "templates/blog-post-template.qmd": {
+    "blog-post-template.html": "9f2367c8"
+  },
+  "todo.md": {
+    "todo.html": "326677ca"
   }
 }

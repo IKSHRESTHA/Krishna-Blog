@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Actuarial &amp; Data Science Hub</title>
+<link>https://ikshrestha.github.io/Krishna-Blog/posts/</link>
+<atom:link href="https://ikshrestha.github.io/Krishna-Blog/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Personal website focused on actuarial science, data science, and data analysis</description>
+<generator>quarto-1.5.52</generator>
+<lastBuildDate>Sun, 20 Apr 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/posts/actuarial/mortality-analysis.html}</title>
+  <dc:creator>Your Name</dc:creator>
+  <link>https://ikshrestha.github.io/Krishna-Blog/posts/actuarial/mortality-analysis.html</link>
+  <description>{B4F502887207:/posts/actuarial/mortality-analysis.html}</description>
+  <category>actuarial</category>
+  <category>mortality</category>
+  <category>R</category>
+  <guid>https://ikshrestha.github.io/Krishna-Blog/posts/actuarial/mortality-analysis.html</guid>
+  <pubDate>Sun, 20 Apr 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://ikshrestha.github.io/Krishna-Blog/images/placeholder.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/data-analysis/data-visualization-best-practices.html}</title>
+  <dc:creator>Your Name</dc:creator>
+  <link>https://ikshrestha.github.io/Krishna-Blog/posts/data-analysis/data-visualization-best-practices.html</link>
+  <description>{B4F502887207:/posts/data-analysis/data-visualization-best-practices.html}</description>
+  <category>data-analysis</category>
+  <category>visualization</category>
+  <category>actuarial</category>
+  <guid>https://ikshrestha.github.io/Krishna-Blog/posts/data-analysis/data-visualization-best-practices.html</guid>
+  <pubDate>Thu, 10 Apr 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://ikshrestha.github.io/Krishna-Blog/images/placeholder.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/actuarial/index.html}</title>
+  <link>https://ikshrestha.github.io/Krishna-Blog/posts/actuarial/</link>
+  <description>{B4F502887207:/posts/actuarial/index.html}</description>
+  <guid>https://ikshrestha.github.io/Krishna-Blog/posts/actuarial/</guid>
+  <pubDate>Fri, 25 Apr 2025 17:15:00 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/posts/data-science/index.html}</title>
+  <link>https://ikshrestha.github.io/Krishna-Blog/posts/data-science/</link>
+  <description>{B4F502887207:/posts/data-science/index.html}</description>
+  <guid>https://ikshrestha.github.io/Krishna-Blog/posts/data-science/</guid>
+  <pubDate>Fri, 25 Apr 2025 17:15:00 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/posts/data-analysis/index.html}</title>
+  <link>https://ikshrestha.github.io/Krishna-Blog/posts/data-analysis/</link>
+  <description>{B4F502887207:/posts/data-analysis/index.html}</description>
+  <guid>https://ikshrestha.github.io/Krishna-Blog/posts/data-analysis/</guid>
+  <pubDate>Fri, 25 Apr 2025 17:15:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Krishna Kumar Shrestha">
 <meta name="dcterms.date" content="2025-04-24">
+<meta name="description" content="An introduction to actuarial science and the path to becoming an actuary.">
 
-<title>What is Actuarial Science and How Can You Become an Actuary? – Krishna Kumar Shrestha Blog’s</title>
+<title>What is Actuarial Science? – Actuarial &amp; Data Science Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -67,9 +103,115 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Meta tags for SEO optimization -->
+<meta name="description" content="An introduction to actuarial science and the path to becoming an actuary.">
+<meta name="keywords" content="actuarial science, data science, data analysis, R programming, statistics, risk modeling">
+<meta name="author" content="Krishna Kumar Shrestha">
+
+<!-- Open Graph tags for social media sharing -->
+<meta property="og:title" content="What is Actuarial Science? – Actuarial &amp; Data Science Hub">
+<meta property="og:description" content="An introduction to actuarial science and the path to becoming an actuary.">
+<meta property="og:image" content="../images/placeholder.jpg">
+<meta property="og:url" content="?meta:site-url?meta:path">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Actuarial &amp; Data Science Hub">
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What is Actuarial Science? – Actuarial &amp; Data Science Hub">
+<meta name="twitter:description" content="An introduction to actuarial science and the path to becoming an actuary.">
+<meta name="twitter:image" content="../images/placeholder.jpg">
+
+<!-- Schema.org markup for Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "?meta:schema-type",
+  "headline": "What is Actuarial Science?",
+  "description": "An introduction to actuarial science and the path to becoming an actuary.",
+  "image": "../images/placeholder.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Krishna Kumar Shrestha"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Actuarial & Data Science Hub",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "?meta:site-url/images/logo.png"
+    }
+  },
+  "datePublished": "April 24, 2025",
+  "dateModified": "?meta:last-modified"
+}
+</script>
+
+<!-- Canonical URL -->
+<link rel="canonical" href="?meta:site-url?meta:path">
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<!-- Font loading -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<!-- Responsive viewport meta tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Google Analytics script (replace UA-XXXXXXXX-X with your actual tracking ID) -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Custom JavaScript for enhanced interactivity -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize tooltips
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+    
+    // Add smooth scrolling to all links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // Add active class to current navigation item
+    const currentLocation = location.pathname;
+    const menuItems = document.querySelectorAll('.navbar-nav a');
+    const menuLength = menuItems.length;
+    for (let i = 0; i < menuLength; i++) {
+      if (menuItems[i].getAttribute('href') === currentLocation) {
+        menuItems[i].classList.add('active');
+      }
+    }
+  });
+</script>
 
 
-<link rel="stylesheet" href="../styles/custom.scss">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="What is Actuarial Science? – Actuarial &amp; Data Science Hub">
+<meta property="og:description" content="An introduction to actuarial science and the path to becoming an actuary.">
+<meta property="og:image" content="https://ikshrestha.github.io/Krishna-Blog/images/placeholder.jpg">
+<meta property="og:site_name" content="Actuarial &amp; Data Science Hub">
+<meta name="twitter:title" content="What is Actuarial Science? – Actuarial &amp; Data Science Hub">
+<meta name="twitter:description" content="An introduction to actuarial science and the path to becoming an actuary.">
+<meta name="twitter:image" content="https://ikshrestha.github.io/Krishna-Blog/images/placeholder.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -79,8 +221,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Krishna Kumar Shrestha Blog’s</span>
+    <span class="navbar-title">Actuarial &amp; Data Science Hub</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,18 +239,50 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
+    <a class="dropdown-item" href="../posts/_index.qmd">
+ <span class="dropdown-text">All Posts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../posts/actuarial/index.html">
+ <span class="dropdown-text">Actuarial Science</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../posts/data-science/index.html">
+ <span class="dropdown-text">Data Science</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../posts/data-analysis/index.html">
+ <span class="dropdown-text">Data Analysis</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/yourusername/yourrepo"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/krishnakumarshrestha"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://github.com/username"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/username"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -120,32 +297,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-actuarial-science" id="toc-what-is-actuarial-science" class="nav-link active" data-scroll-target="#what-is-actuarial-science">What is Actuarial Science?</a></li>
-  <li><a href="#how-can-you-become-an-actuary" id="toc-how-can-you-become-an-actuary" class="nav-link" data-scroll-target="#how-can-you-become-an-actuary">How Can You Become an Actuary?</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What is Actuarial Science and How Can You Become an Actuary?</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">actuarial</div>
-    <div class="quarto-category">career</div>
-  </div>
-  </div>
+<div class="quarto-title-block"><div><h1 class="title">What is Actuarial Science?</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
 
+<div>
+  <div class="description">
+    An introduction to actuarial science and the path to becoming an actuary.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Krishna Kumar Shrestha </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -162,46 +339,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-is-actuarial-science" class="level1">
-<h1>What is Actuarial Science?</h1>
-<p>Actuarial science is a discipline that applies mathematics, statistics, and financial theory to assess risk in insurance, finance, and other industries. Actuaries use their expertise to help organizations make informed decisions about uncertain future events, such as life expectancy, accident rates, or financial market fluctuations.</p>
-<p>Actuarial science combines knowledge from mathematics, probability, statistics, economics, and computer science. The work of actuaries is crucial for designing insurance policies, pension plans, and managing financial risk for companies and governments.</p>
-</section>
-<section id="how-can-you-become-an-actuary" class="level1">
-<h1>How Can You Become an Actuary?</h1>
-<p>Becoming an actuary typically involves the following steps:</p>
-<ol type="1">
-<li><strong>Education:</strong>
-<ul>
-<li>Obtain a bachelor’s degree in actuarial science, mathematics, statistics, finance, or a related field.</li>
-</ul></li>
-<li><strong>Professional Exams:</strong>
-<ul>
-<li>Pass a series of actuarial exams administered by professional bodies such as the Society of Actuaries (SOA) or the Casualty Actuarial Society (CAS). These exams test your knowledge of probability, financial mathematics, actuarial models, and more.</li>
-</ul></li>
-<li><strong>Validation by Educational Experience (VEE):</strong>
-<ul>
-<li>Complete coursework in economics, accounting, and statistics as required by actuarial societies.</li>
-</ul></li>
-<li><strong>Technical Skills:</strong>
-<ul>
-<li>Develop proficiency in programming (e.g., R, Python), Excel, and data analysis tools.</li>
-</ul></li>
-<li><strong>Internships/Experience:</strong>
-<ul>
-<li>Gain practical experience through internships or entry-level positions in insurance, consulting, or finance.</li>
-</ul></li>
-<li><strong>Credentialing:</strong>
-<ul>
-<li>Continue passing exams and fulfilling requirements to achieve Associate and then Fellow status in a professional actuarial organization.</li>
-</ul></li>
-</ol>
-<p>Actuaries are in high demand for their analytical skills and play a vital role in helping businesses and governments manage risk and plan for the future.</p>
-<hr>
-<p><em>Interested in learning more? Explore my other posts or connect with me on <a href="https://linkedin.com/in/krishnakumarshrestha">LinkedIn</a>!</em></p>
+<p>Actuarial science is a discipline that applies mathematical and statistical methods to assess risk in insurance, finance, and other industries. It involves using quantitative techniques to evaluate future events and their financial implications.</p>
+<p>The path to becoming an actuary typically involves obtaining a degree in actuarial science or a related field, followed by passing a series of professional exams to become certified. Actuaries are employed by insurance companies, pension funds, and other financial institutions to analyze data and develop policies that minimize risk and ensure financial stability.</p>
 
 
-</section>
+<!-- -->
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -294,9 +437,60 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
     clipboardModal.on('success', onCopySuccess);
   }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ikshrestha\.github\.io\/Krishna-Blog\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -624,7 +818,36 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="username/quarto-website" data-repo-id="your-repo-id" data-category="Comments" data-category-id="your-category-id" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light"><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "What is Actuarial Science?"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2025-04-24</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "An introduction to actuarial science and the path to becoming an actuary."</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Krishna Kumar Shrestha"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> ../images/placeholder.jpg</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Actuarial science is a discipline that applies mathematical and statistical methods to assess risk in insurance, finance, and other industries. It involves using quantitative techniques to evaluate future events and their financial implications.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>The path to becoming an actuary typically involves obtaining a degree in actuarial science or a related field, followed by passing a series of professional exams to become certified. Actuaries are employed by insurance companies, pension funds, and other financial institutions to analyze data and develop policies that minimize risk and ensure financial stability.</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Your Name. All content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><ul><li><a href="https://github.com/username/quarto-website/edit/main/posts/2025-04-24-what-is-actuarial-science.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/username/quarto-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Made with <a href="https://quarto.org/">Quarto</a> | <a href="..\privacy.html">Privacy Policy</a></p>
+</div>
+  </div>
+</footer>
 
 
 

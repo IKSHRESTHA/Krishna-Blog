@@ -1,0 +1,19 @@
+---
+title: "Data Analysis"
+subtitle: "Insights on Data Visualization, Business Intelligence, and Analytics"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  feed: true
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  image-height: 200px
+  image-placeholder: "../../images/placeholder.jpg"
+page-layout: full
+---
+
+Explore articles focused on data analysis, including data visualization, business intelligence, financial analysis, and trend forecasting. These posts showcase practical techniques and tools for extracting insights from data using R programming.

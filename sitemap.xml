@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{#entries}}
+  <url>
+    <loc>{{site-url}}{{path}}</loc>
+    <lastmod>{{date}}</lastmod>
+    <changefreq>{{#is_post}}monthly{{/is_post}}{{#is_page}}yearly{{/is_page}}</changefreq>
+    <priority>{{#is_home}}1.0{{/is_home}}{{#is_post}}0.8{{/is_post}}{{#is_page}}0.6{{/is_page}}</priority>
+  </url>
+  {{/entries}}
+</urlset>

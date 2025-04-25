@@ -1,14 +1,19 @@
 ---
-title: "Blog Posts"
+title: "Blog"
+subtitle: "Insights on Actuarial Science, Data Science, and Data Analysis"
 listing:
-  contents: "."
+  contents: [actuarial/*, data-science/*, data-analysis/*]
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  feed: true
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  image-height: 200px
+  image-placeholder: "../images/placeholder.jpg"
+page-layout: full
 ---
 
-# Blog Posts
-
-Below are my latest posts. Click a title to read more.
-
-<!-- This page auto-lists all posts in the posts/ folder. -->
+Welcome to my blog where I share insights, tutorials, and research on actuarial science, data science, and data analysis. Use the filters to browse by category or search for specific topics.

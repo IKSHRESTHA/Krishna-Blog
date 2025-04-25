@@ -1,23 +1,97 @@
 ---
-title: "Home"
-format: html
+title: "Actuarial & Data Science Hub"
+subtitle: "Exploring the intersection of actuarial science, data science, and analytics"
+page-layout: full
+toc: false
+listing:
+  - id: featured-posts
+    contents: posts/*/*.qmd
+    type: grid
+    max-items: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    fields: [image, date, title, subtitle, categories, author]
+    image-height: 200px
+    image-placeholder: "images/placeholder.jpg"
+  - id: featured-projects
+    contents: projects/*.qmd
+    type: grid
+    max-items: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    fields: [image, title, subtitle, categories]
+    image-height: 200px
+    image-placeholder: "images/placeholder.jpg"
 ---
 
-# About Me
+::: {.column-page}
+::: {.hero-banner}
+# Welcome to my Actuarial & Data Science Hub
 
-Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Python, and data analysis. I am passionate about leveraging analytics and actuarial science to drive business growth and informed decision-making.
+I'm an actuary and data scientist passionate about using data to solve complex problems. This site showcases my work, research, and insights at the intersection of actuarial science, data science, and analytics.
 
-- **Location:** Murfreesboro, TN, USA
-- **Email:** [Krishnakumarshrestha00@gmail.com](mailto:Krishnakumarshrestha00@gmail.com)
-- **LinkedIn:** [linkedin.com/in/krishnakumarshrestha](https://linkedin.com/in/krishnakumarshrestha)
+[About Me](/about/){.btn .btn-primary .btn-lg role="button"}
+[View Projects](/projects/){.btn .btn-secondary .btn-lg role="button"}
+:::
 
-## Latest Posts
+## Featured Posts {.mt-5}
 
-```{listings}
-contents: posts
-sort: "date desc"
-limit: 3
-type: default
-```
+::: {#featured-posts}
+:::
 
-<!-- To customize: Update this section with your own summary and contact info. -->
+[View All Posts](/posts/){.btn .btn-outline-primary .mt-3}
+
+## Featured Projects {.mt-5}
+
+::: {#featured-projects}
+:::
+
+[View All Projects](/projects/){.btn .btn-outline-primary .mt-3}
+
+## Areas of Expertise {.mt-5}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+### Actuarial Science
+- Risk modeling and assessment
+- Insurance pricing and reserving
+- Mortality and longevity analysis
+- Pension valuation
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Data Science
+- Machine learning applications
+- Predictive modeling
+- Statistical analysis
+- Natural language processing
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Data Analysis
+- Data visualization
+- Business intelligence
+- Financial analysis
+- Trend forecasting
+:::
+:::
+
+## Newsletter {.mt-5}
+
+Stay updated with the latest in actuarial science and data analytics.
+
+<form class="row g-3">
+  <div class="col-auto">
+    <input type="email" class="form-control" id="emailInput" placeholder="Your email address">
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+  </div>
+</form>
+:::

@@ -1,0 +1,21 @@
+---
+title: "Actuarial Science"
+subtitle: "Insights on Risk Modeling, Insurance, and Actuarial Methods"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  feed: true
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  image-height: 200px
+  image-placeholder: "../../images/placeholder.jpg"
+page-layout: full
+# Fixed unsupported type for categories in metadata.
+categories: ["actuarial", "template"]
+---
+
+Explore articles focused on actuarial science, including risk modeling, insurance pricing, mortality analysis, pension valuation, and more. These posts combine theoretical concepts with practical applications using R programming.

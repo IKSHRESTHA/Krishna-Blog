@@ -1,0 +1,31 @@
+<!-- Schema.org markup for blog posts -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{< meta title >}}",
+  "description": "{{< meta description >}}",
+  "image": "{{< meta site-url >}}{{< meta image >}}",
+  "datePublished": "{{< meta date >}}",
+  "dateModified": "{{< meta last-modified >}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{< meta author >}}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Actuarial & Data Science Hub",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{< meta site-url >}}/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{< meta site-url >}}{{< meta path >}}"
+  },
+  "keywords": "{{< meta categories >}}",
+  "articleSection": "{{< meta categories.0 >}}",
+  "inLanguage": "en-US"
+}
+</script>

@@ -1,0 +1,123 @@
+<!-- Social Media Sharing Integration -->
+<div class="social-sharing">
+  <h4>Share this post</h4>
+  <div class="social-buttons">
+    <!-- Twitter/X Share -->
+    <a href="https://twitter.com/intent/tweet?url={{< meta site-url >}}{{< meta path >}}&text={{< meta title >}}" 
+       target="_blank" rel="noopener noreferrer" class="social-button twitter">
+      <i class="bi bi-twitter"></i>
+      <span class="sr-only">Share on Twitter</span>
+    </a>
+    
+    <!-- LinkedIn Share -->
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{< meta site-url >}}{{< meta path >}}" 
+       target="_blank" rel="noopener noreferrer" class="social-button linkedin">
+      <i class="bi bi-linkedin"></i>
+      <span class="sr-only">Share on LinkedIn</span>
+    </a>
+    
+    <!-- Facebook Share -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{< meta site-url >}}{{< meta path >}}" 
+       target="_blank" rel="noopener noreferrer" class="social-button facebook">
+      <i class="bi bi-facebook"></i>
+      <span class="sr-only">Share on Facebook</span>
+    </a>
+    
+    <!-- Email Share -->
+    <a href="mailto:?subject={{< meta title >}}&body=Check out this article: {{< meta site-url >}}{{< meta path >}}" 
+       class="social-button email">
+      <i class="bi bi-envelope"></i>
+      <span class="sr-only">Share via Email</span>
+    </a>
+    
+    <!-- Copy Link -->
+    <button onclick="copyPageUrl()" class="social-button copy-link">
+      <i class="bi bi-link-45deg"></i>
+      <span class="sr-only">Copy link</span>
+    </button>
+  </div>
+</div>
+
+<style>
+.social-sharing {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.social-button:hover, .social-button:focus {
+  transform: translateY(-3px);
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.email {
+  background-color: #D44638;
+}
+
+.copy-link {
+  background-color: #6c757d;
+  border: none;
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+</style>
+
+<script>
+function copyPageUrl() {
+  navigator.clipboard.writeText(window.location.href)
+    .then(() => {
+      // Show a temporary tooltip or notification
+      const button = document.querySelector('.copy-link');
+      const originalHTML = button.innerHTML;
+      button.innerHTML = '<i class="bi bi-check"></i>';
+      
+      setTimeout(() => {
+        button.innerHTML = originalHTML;
+      }, 2000);
+    })
+    .catch(err => {
+      console.error('Failed to copy URL: ', err);
+    });
+}
+</script>

@@ -1,0 +1,18 @@
+---
+title: "Projects"
+subtitle: "Showcasing my work in actuarial science and data analytics"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  fields: [image, title, subtitle, categories, description]
+  image-height: 200px
+  image-placeholder: "../images/placeholder.jpg"
+page-layout: full
+---
+
+Browse through my portfolio of projects in actuarial science, data science, and data analysis. Each project demonstrates practical applications of analytical techniques to solve real-world problems.

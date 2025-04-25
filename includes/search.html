@@ -1,0 +1,119 @@
+<!-- Search functionality for Quarto website -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Create search index when the page loads
+  const searchIndex = [];
+  const searchableElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li');
+  
+  searchableElements.forEach(element => {
+    searchIndex.push({
+      element: element,
+      text: element.textContent.toLowerCase()
+    });
+  });
+  
+  // Function to perform search
+  function performSearch(query) {
+    const results = [];
+    const searchQuery = query.toLowerCase();
+    
+    searchIndex.forEach(item => {
+      if (item.text.includes(searchQuery)) {
+        results.push(item.element);
+      }
+    });
+    
+    return results;
+  }
+  
+  // Function to display search results
+  function displaySearchResults(results, query) {
+    const searchResultsContainer = document.getElementById('search-results');
+    searchResultsContainer.innerHTML = '';
+    
+    if (results.length === 0) {
+      searchResultsContainer.innerHTML = `<p>No results found for "${query}"</p>`;
+      return;
+    }
+    
+    const resultsList = document.createElement('ul');
+    resultsList.className = 'search-results-list';
+    
+    results.forEach(result => {
+      const listItem = document.createElement('li');
+      
+      // Create a link if the result is a heading
+      if (['H1', 'H2', 'H3', 'H4', 'H5', 'H6'].includes(result.tagName)) {
+        const link = document.createElement('a');
+        link.href = '#' + (result.id || '');
+        link.textContent = result.textContent;
+        listItem.appendChild(link);
+      } else {
+        listItem.textContent = result.textContent;
+      }
+      
+      resultsList.appendChild(listItem);
+    });
+    
+    searchResultsContainer.appendChild(resultsList);
+  }
+  
+  // Add event listener to search input
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      const query = this.value.trim();
+      
+      if (query.length < 3) {
+        document.getElementById('search-results').innerHTML = '';
+        return;
+      }
+      
+      const results = performSearch(query);
+      displaySearchResults(results, query);
+    });
+  }
+});
+</script>
+
+<style>
+.search-container {
+  margin: 1rem 0;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#search-results {
+  margin-top: 1rem;
+}
+
+.search-results-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.search-results-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.search-results-list li a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.search-results-list li a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="search-container">
+  <input type="text" id="search-input" placeholder="Search content...">
+  <div id="search-results"></div>
+</div>

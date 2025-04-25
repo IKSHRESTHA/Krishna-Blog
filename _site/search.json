@@ -2,92 +2,106 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Actuarial & Data Science Hub",
     "section": "",
-    "text": "Welcome! I am an aspiring Actuarial Analyst with a strong background in R, Python, and data analysis. I am passionate about leveraging analytics and actuarial science to drive business growth and informed decision-making.\n\nLocation: Murfreesboro, TN, USA\nEmail: Krishnakumarshrestha00@gmail.com\nLinkedIn: linkedin.com/in/krishnakumarshrestha\n\n\n\ncontents: posts\nsort: \"date desc\"\nlimit: 3\ntype: default"
+    "text": "I’m an actuary and data scientist passionate about using data to solve complex problems. This site showcases my work, research, and insights at the intersection of actuarial science, data science, and analytics.\nAbout Me View Projects\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts\n\n\n\n\n\n\n\n\n\n\n\n\nShowcasing my work in actuarial science and data analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Projects\n\n\n\n\n\n\n\nRisk modeling and assessment\nInsurance pricing and reserving\nMortality and longevity analysis\nPension valuation\n\n\n\n\n\nMachine learning applications\nPredictive modeling\nStatistical analysis\nNatural language processing\n\n\n\n\n\nData visualization\nBusiness intelligence\nFinancial analysis\nTrend forecasting\n\n\n\n\n\n\nStay updated with the latest in actuarial science and data analytics.\n\n\n&lt;input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"Your email address\"&gt;\n\n\n&lt;button type=\"submit\" class=\"btn btn-primary mb-3\"&gt;Subscribe&lt;/button&gt;"
   },
   {
-    "objectID": "projects/project2.html",
-    "href": "projects/project2.html",
-    "title": "Project Two",
+    "objectID": "index.html#featured-posts",
+    "href": "index.html#featured-posts",
+    "title": "Actuarial & Data Science Hub",
     "section": "",
-    "text": "Another project template."
+    "text": "Insights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts"
   },
   {
-    "objectID": "projects/project2.html#r-plot",
-    "href": "projects/project2.html#r-plot",
-    "title": "Project Two",
-    "section": "R Plot",
-    "text": "R Plot\n\n\nCode\nplot(pressure)"
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Showcasing my work in actuarial science and data analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Projects"
+  },
+  {
+    "objectID": "index.html#areas-of-expertise",
+    "href": "index.html#areas-of-expertise",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Risk modeling and assessment\nInsurance pricing and reserving\nMortality and longevity analysis\nPension valuation\n\n\n\n\n\nMachine learning applications\nPredictive modeling\nStatistical analysis\nNatural language processing\n\n\n\n\n\nData visualization\nBusiness intelligence\nFinancial analysis\nTrend forecasting"
+  },
+  {
+    "objectID": "index.html#newsletter",
+    "href": "index.html#newsletter",
+    "title": "Actuarial & Data Science Hub",
+    "section": "",
+    "text": "Stay updated with the latest in actuarial science and data analytics.\n\n\n&lt;input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"Your email address\"&gt;\n\n\n&lt;button type=\"submit\" class=\"btn btn-primary mb-3\"&gt;Subscribe&lt;/button&gt;"
   },
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "Blog Posts",
+    "title": "Blog",
     "section": "",
-    "text": "Blog Posts\nBelow are my latest posts. Click a title to read more.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Post: R + Python Analysis\n\n\n\n\n\n\nblog\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Actuarial Science and How Can You Become an Actuary?\n\n\n\n\n\n\nactuarial\n\n\ncareer\n\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog where I share insights, tutorials, and research on actuarial science, data science, and data analysis. Use the filters to browse by category or search for specific topics.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nActuarial Science\n\n\nInsights on Risk Modeling, Insurance, and Actuarial Methods\n\n\n1 min\n\n\n\nactuarial\n\n\ntemplate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science\n\n\nInsights on Machine Learning, Statistical Analysis, and Predictive Modeling\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Analysis\n\n\nInsights on Data Visualization, Business Intelligence, and Analytics\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMortality Table Analysis with R\n\n\nExploring actuarial life tables and survival analysis\n\n\n12 min\n\n\n\nactuarial\n\n\nmortality\n\n\nR\n\n\n\n\nYour Name\n\n\nApr 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Best Practices for Actuaries\n\n\nCreating effective and insightful visualizations for actuarial reports\n\n\n14 min\n\n\n\ndata-analysis\n\n\nvisualization\n\n\nactuarial\n\n\n\n\nYour Name\n\n\nApr 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/actuarial/index.html",
+    "href": "posts/actuarial/index.html",
+    "title": "Actuarial Science",
     "section": "",
-    "text": "I’m a data scientist with experience in R, Python, and machine learning.\n\n\n\nR, Python, Quarto\nData visualization\nMachine learning\n\n\n\n\n\n\nName:  Email:  Message:\n\n\nSend"
+    "text": "Explore articles focused on actuarial science, including risk modeling, insurance pricing, mortality analysis, pension valuation, and more. These posts combine theoretical concepts with practical applications using R programming.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMortality Table Analysis with R\n\n\nExploring actuarial life tables and survival analysis\n\n\n12 min\n\n\n\nactuarial\n\n\nmortality\n\n\nR\n\n\n\n\nYour Name\n\n\nApr 20, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About",
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "",
     "section": "",
-    "text": "R, Python, Quarto\nData visualization\nMachine learning"
+    "text": "Code"
   },
   {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About",
-    "section": "",
-    "text": "Name:  Email:  Message:\n\n\nSend"
+    "objectID": "todo.html#website-structure",
+    "href": "todo.html#website-structure",
+    "title": "",
+    "section": "Website Structure",
+    "text": "Website Structure\n\nCreate basic directory structure\nInstall Quarto\nCreate _quarto.yml configuration file\nCreate homepage (index.qmd)\nCreate About page\nCreate blog section with category pages\nCreate projects section"
   },
   {
-    "objectID": "posts/2025-04-24-example-post.html",
-    "href": "posts/2025-04-24-example-post.html",
-    "title": "Example Post: R + Python Analysis",
-    "section": "",
-    "text": "Introduction\nThis post demonstrates a simple analysis mixing R and Python.\n\n\nData Summary\n\n\nCode\nsummary(mtcars)\n\n\n      mpg             cyl             disp             hp       \n Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  \n 1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  \n Median :19.20   Median :6.000   Median :196.3   Median :123.0  \n Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  \n 3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  \n Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  \n      drat             wt             qsec             vs        \n Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  \n 1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  \n Median :3.695   Median :3.325   Median :17.71   Median :0.0000  \n Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  \n 3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  \n Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  \n       am              gear            carb      \n Min.   :0.0000   Min.   :3.000   Min.   :1.000  \n 1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  \n Median :0.0000   Median :4.000   Median :2.000  \n Mean   :0.4062   Mean   :3.688   Mean   :2.812  \n 3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  \n Max.   :1.0000   Max.   :5.000   Max.   :8.000  \n\n\n\n\nPython Calculation\n\n\nCode\nimport pandas as pd\npd.DataFrame({'a': [1,2], 'b': [3,4]}).describe()\n\n\n              a         b\ncount  2.000000  2.000000\nmean   1.500000  3.500000\nstd    0.707107  0.707107\nmin    1.000000  3.000000\n25%    1.250000  3.250000\n50%    1.500000  3.500000\n75%    1.750000  3.750000\nmax    2.000000  4.000000\n\n\n\n\nFigure Example\n\n\nCode\nplot(iris$Sepal.Length, iris$Sepal.Width, main=\"Iris Sepal\")\n\n\n\n\n\n\n\n\n\n\n\nTable Example\n\n\n\nName\nValue\n\n\n\n\nFoo\n123\n\n\nBar\n456\n\n\n\n\n\nCross-reference Example\nSee Figure 1.\n\n\nCitation Example\nQuarto is awesome [@quarto].\n\n\nReferences\n\n\n@quarto: Quarto documentation, https://quarto.org"
+    "objectID": "todo.html#blog-system",
+    "href": "todo.html#blog-system",
+    "title": "",
+    "section": "Blog System",
+    "text": "Blog System\n\nSet up category/tag system with filterable posts\nCreate sample blog posts for each category\nImplement interactive elements (R visualizations, code toggles)\nSet up search functionality\nConfigure RSS feed generation\nImplement comments/feedback system"
   },
   {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Project One",
-    "section": "",
-    "text": "A sample project demonstrating R and Python integration."
+    "objectID": "todo.html#seo-optimization",
+    "href": "todo.html#seo-optimization",
+    "title": "",
+    "section": "SEO Optimization",
+    "text": "SEO Optimization\n\nCreate meta-tags.html with schema markup\nSet up automatic sitemap.xml generation\nConfigure canonical URL management\nCreate guidelines for alt-text optimization"
   },
   {
-    "objectID": "projects/project1.html#r-example",
-    "href": "projects/project1.html#r-example",
-    "title": "Project One",
-    "section": "R Example",
-    "text": "R Example\n\n\nCode\nsummary(cars)\n\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+    "objectID": "todo.html#technical-implementation",
+    "href": "todo.html#technical-implementation",
+    "title": "",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\n\nSet up GitHub Pages deployment configuration\nOptimize for fast load times\nImplement accessibility features (WCAG 2.1)\nAdd social media sharing integrations\nSet up analytics integration"
   },
   {
-    "objectID": "projects/project1.html#python-example",
-    "href": "projects/project1.html#python-example",
-    "title": "Project One",
-    "section": "Python Example",
-    "text": "Python Example\n\n\nCode\nimport numpy as np\nnp.mean([1, 2, 3])\n\n\n2.0"
+    "objectID": "todo.html#content-strategy",
+    "href": "todo.html#content-strategy",
+    "title": "",
+    "section": "Content Strategy",
+    "text": "Content Strategy\n\nCreate blog post template with standardized front matter\nSet up automatic date-based organization\nImplement related posts suggestions\nCreate author bio schema\nAdd newsletter subscription functionality"
   },
   {
-    "objectID": "index.html#latest-posts",
-    "href": "index.html#latest-posts",
-    "title": "Home",
-    "section": "",
-    "text": "contents: posts\nsort: \"date desc\"\nlimit: 3\ntype: default"
+    "objectID": "todo.html#interactivity",
+    "href": "todo.html#interactivity",
+    "title": "",
+    "section": "Interactivity",
+    "text": "Interactivity\n\nSet up live R code execution examples\nCreate interactive chart examples (Plotly/Leaflet)\nImplement dynamic tables with filtering\nAdd progressive disclosure for technical content"
   },
   {
-    "objectID": "posts/2025-04-24-what-is-actuarial-science.html",
-    "href": "posts/2025-04-24-what-is-actuarial-science.html",
-    "title": "What is Actuarial Science and How Can You Become an Actuary?",
-    "section": "",
-    "text": "What is Actuarial Science?\nActuarial science is a discipline that applies mathematics, statistics, and financial theory to assess risk in insurance, finance, and other industries. Actuaries use their expertise to help organizations make informed decisions about uncertain future events, such as life expectancy, accident rates, or financial market fluctuations.\nActuarial science combines knowledge from mathematics, probability, statistics, economics, and computer science. The work of actuaries is crucial for designing insurance policies, pension plans, and managing financial risk for companies and governments.\n\n\nHow Can You Become an Actuary?\nBecoming an actuary typically involves the following steps:\n\nEducation:\n\nObtain a bachelor’s degree in actuarial science, mathematics, statistics, finance, or a related field.\n\nProfessional Exams:\n\nPass a series of actuarial exams administered by professional bodies such as the Society of Actuaries (SOA) or the Casualty Actuarial Society (CAS). These exams test your knowledge of probability, financial mathematics, actuarial models, and more.\n\nValidation by Educational Experience (VEE):\n\nComplete coursework in economics, accounting, and statistics as required by actuarial societies.\n\nTechnical Skills:\n\nDevelop proficiency in programming (e.g., R, Python), Excel, and data analysis tools.\n\nInternships/Experience:\n\nGain practical experience through internships or entry-level positions in insurance, consulting, or finance.\n\nCredentialing:\n\nContinue passing exams and fulfilling requirements to achieve Associate and then Fellow status in a professional actuarial organization.\n\n\nActuaries are in high demand for their analytical skills and play a vital role in helping businesses and governments manage risk and plan for the future.\n\nInterested in learning more? Explore my other posts or connect with me on LinkedIn!"
+    "objectID": "todo.html#deliverables",
+    "href": "todo.html#deliverables",
+    "title": "",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nComplete Quarto project structure\nDeployment pipeline configuration\nSEO-optimized blog templates\nDocumentation for content updates\nPerformance optimization checklist"
   }
 ]

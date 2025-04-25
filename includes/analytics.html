@@ -1,0 +1,42 @@
+<!-- Google Analytics script (replace UA-XXXXXXXX-X with your actual tracking ID) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Custom JavaScript for enhanced interactivity -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize tooltips
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+    
+    // Add smooth scrolling to all links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // Add active class to current navigation item
+    const currentLocation = location.pathname;
+    const menuItems = document.querySelectorAll('.navbar-nav a');
+    const menuLength = menuItems.length;
+    for (let i = 0; i < menuLength; i++) {
+      if (menuItems[i].getAttribute('href') === currentLocation) {
+        menuItems[i].classList.add('active');
+      }
+    }
+  });
+</script>
