@@ -113,7 +113,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 9,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -354,7 +355,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="actuarial">actuarial <span class="quarto-category-count">(3)</span></div><div class="category" data-category="data-analysis">data-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mortality">mortality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="actuarial">actuarial <span class="quarto-category-count">(3)</span></div><div class="category" data-category="data-analysis">data-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mortality">mortality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -412,7 +413,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1745601643248">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1746239602104">
 <a href="../posts\actuarial\index-listing.json" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -425,7 +426,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1745601643296">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1746239602126">
 <a href="../posts\actuarial\index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -438,7 +439,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="actuarial,template" data-listing-file-modified-sort="1745601640013" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="g-col-1" data-index="2" data-categories="actuarial,template" data-listing-file-modified-sort="1745602187852" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <a href="../posts/actuarial/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="..\images\placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
@@ -469,10 +470,49 @@ template
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1745599722823" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1746239595271">
+<a href="../posts\actuarial\mortality-analysis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1746239603083">
+<a href="../posts\data-science\index-listing.json" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1746239603103">
+<a href="../posts\data-science\index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1745599722823" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../posts/data-science/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="..\images\placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="../images/placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Data Science
@@ -492,10 +532,37 @@ Insights on Machine Learning, Statistical Analysis, and Predictive Modeling
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1745599721633" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1746239596043">
+<a href="../posts\data-science\ml-insurance-pricing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1745602220440">
+<a href="../posts/data-science/ml-insurance-pricing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="../images/placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1745599721633" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
 <a href="../posts/data-analysis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="..\images\placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="..\images\placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Data Analysis
@@ -515,11 +582,11 @@ Insights on Data Visualization, Business Intelligence, and Analytics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="actuarial,mortality,R" data-listing-date-sort="1745125200000" data-listing-file-modified-sort="1745599930109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2224">
+<div class="g-col-1" data-index="10" data-categories="actuarial,mortality,R" data-listing-date-sort="1745125200000" data-listing-file-modified-sort="1745602006455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2224">
 <a href="../posts/actuarial/mortality-analysis.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/placeholder.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" data-src="../images/placeholder.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -554,11 +621,11 @@ Apr 20, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="data-analysis,visualization,actuarial" data-listing-date-sort="1744261200000" data-listing-file-modified-sort="1745599271486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2740">
+<div class="g-col-1" data-index="11" data-categories="data-analysis,visualization,actuarial" data-listing-date-sort="1744261200000" data-listing-file-modified-sort="1745599271486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2740">
 <a href="../posts/data-analysis/data-visualization-best-practices.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/placeholder.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" data-src="../images/placeholder.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -597,6 +664,9 @@ Apr 10, 2025
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

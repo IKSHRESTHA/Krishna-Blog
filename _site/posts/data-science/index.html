@@ -114,7 +114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -261,7 +261,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Actuarial &amp; Data Science Hub" href="index.xml" data-external="1"><meta property="og:title" content="Data Science – Actuarial &amp; Data Science Hub">
+<meta property="og:title" content="Data Science – Actuarial &amp; Data Science Hub">
 <meta property="og:description" content="Insights on Machine Learning, Statistical Analysis, and Predictive Modeling">
 <meta property="og:site_name" content="Actuarial &amp; Data Science Hub">
 <meta name="twitter:title" content="Data Science – Actuarial &amp; Data Science Hub">
@@ -354,7 +354,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="actuarial">actuarial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data-science">data-science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning">machine-learning <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -412,39 +412,14 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="data-science,actuarial,machine-learning" data-listing-date-sort="1744693200000" data-listing-file-modified-sort="1745599271433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3316">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1745602220440">
 <a href="../../posts/data-science/ml-insurance-pricing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../images/placeholder.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
+<p class="card-img-top"><img src="../../images/placeholder.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine Learning for Insurance Pricing
-</h5>
-<div class="card-subtitle listing-subtitle">
-Applying modern data science techniques to actuarial problems
-</div>
-<div class="listing-reading-time card-text text-muted">
-17 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data-science'); return false;">
-data-science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('actuarial'); return false;">
-actuarial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine-learning'); return false;">
-machine-learning
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Your Name
-</div>
-<div class="listing-date">
-Apr 15, 2025
+
 </div>
 </div>
 </div>
@@ -599,7 +574,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ikshrestha\.github\.io\/Krishna-Blog\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

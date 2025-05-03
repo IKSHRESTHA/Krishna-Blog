@@ -1,5 +1,5 @@
 ---
-title: "Actuarial & Data Science Hub"
+title: "Krishna Blogs"
 subtitle: "Exploring the intersection of actuarial science, data science, and analytics"
 page-layout: full
 toc: false
@@ -34,7 +34,8 @@ listing:
 ::: {.hero-banner}
 # Welcome to my Actuarial & Data Science Hub
 
-I'm an actuary and data scientist passionate about using data to solve complex problems. This site showcases my work, research, and insights at the intersection of actuarial science, data science, and analytics.
+I'm an actuarial science graduate student with a strong interest in data science and a commitment to becoming a fully credentialed actuary. This site serves as a portfolio of my projects, research, and ideas at the intersection of actuarial modeling, data analytics, and risk management. It's a space where I explore practical problems, experiment with data-driven solutions, and share my learning journey. 
+
 
 [About Me](/about/){.btn .btn-primary .btn-lg role="button"}
 [View Projects](/projects/){.btn .btn-secondary .btn-lg role="button"}
@@ -61,7 +62,7 @@ I'm an actuary and data scientist passionate about using data to solve complex p
 ### Actuarial Science
 - Risk modeling and assessment
 - Insurance pricing and reserving
-- Mortality and longevity analysis
+- Gratuaty Valuation
 - Pension valuation
 :::
 
@@ -70,7 +71,6 @@ I'm an actuary and data scientist passionate about using data to solve complex p
 - Machine learning applications
 - Predictive modeling
 - Statistical analysis
-- Natural language processing
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -88,7 +88,7 @@ Stay updated with the latest in actuarial science and data analytics.
 
 <form class="row g-3">
   <div class="col-auto">
-    <input type="email" class="form-control" id="emailInput" placeholder="Your email address">
+    <input type="email" class="form-control" id="emailInput" placeholder="Krishnakumarshrestha00@gmail.com">
   </div>
   <div class="col-auto">
     <button type="submit" class="btn btn-primary mb-3">Subscribe</button>

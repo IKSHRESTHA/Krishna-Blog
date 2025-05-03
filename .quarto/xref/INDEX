@@ -52,5 +52,8 @@
   },
   "todo.md": {
     "todo.html": "326677ca"
+  },
+  "posts/data-science/ml-insurance-pricing.qmd": {
+    "ml-insurance-pricing.html": "b9d156db"
   }
 }

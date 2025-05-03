@@ -1,66 +1,95 @@
 ---
 title: "About Me"
-subtitle: "Actuary & Data Scientist"
+subtitle: "Actuarial Student"
 image: "../images/profile.jpg"
 about:
   template: jolla
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/username
+      href: https://www.linkedin.com/in/krishnakumarshrestha/
     - icon: github
       text: Github
-      href: https://github.com/username
+      href: https://github.com/IKSHRESTHA
     - icon: envelope
       text: Email
-      href: mailto:email@example.com
+      href: mailto:krishnakumarshrestha00@gmail.com
 ---
 
 ## Professional Background
 
-I am an actuary and data scientist with expertise in risk modeling, statistical analysis, and data visualization. My work focuses on applying advanced analytical techniques to solve complex problems in insurance, finance, and related fields.
+I am an aspiring actuary and data analyst with hands-on experience in employee benefit valuation, risk consulting, and digital insurance platforms. My technical foundation in R, Python, and Excel supports my work across actuarial modeling, data analysis, and applied statistical research. 
 
-With a background in actuarial science and a passion for data-driven decision making, I bring a unique perspective to projects that require both domain knowledge and technical expertise.
+With practical exposure to both academic and consulting environments, I bring a multidisciplinary perspective that bridges actuarial theory and real-world applications. I’m passionate about using data to solve complex insurance and financial problems, while actively working toward full actuarial credentialing.
 
 ## Education & Certifications
 
-- **Master of Science in Actuarial Science**  
-  University Name, Year
-  
-- **Bachelor of Science in Mathematics**  
-  University Name, Year
-  
-- **Professional Certifications**
-  - Associate of the Society of Actuaries (ASA)
-  - Chartered Enterprise Risk Analyst (CERA)
-  - Certified Data Scientist
+- **Master of Science in Actuarial Science (Professional Science Program)**  
+  Middle Tennessee State University, Expected Jan 2027
+
+- **Bachelor of Science in Mathematical Sciences (Actuarial Science)**  
+  Tribhuvan University, Nepal, 2021
+
+- **Professional Examinations**  
+  - Exam P – Probability  
+  - Exam FM – Financial Mathematics  
+  - Exam FAM – Fundamentals of Actuarial Mathematics  
+  - Exam ALTAM – Advanced Long-Term Actuarial Mathematics  
+  - VEE (Validation by Educational Experience): Statistics, Accounting, and Economics
 
 ## Technical Skills
 
 My technical toolkit includes:
 
-- **Programming Languages**: R, Python, SQL
-- **Statistical Methods**: Regression analysis, time series forecasting, survival analysis
-- **Machine Learning**: Supervised and unsupervised learning, deep learning
-- **Data Visualization**: ggplot2, Plotly, Shiny
-- **Actuarial Software**: Prophet, AXIS, MoSes
-- **Version Control**: Git, GitHub
+- **Programming Languages**: R, Python, Excel (VBA), SQL (basic)
+- **Data Analysis & Visualization**: R Shiny, ggplot2, Excel Dashboards
+- **Software & Platforms**: GitHub, Power BI (basic)
 
-## Research Interests
+## Professional Experience
 
-My research interests lie at the intersection of actuarial science and data science:
+**Senior Consultant**  
+*Principal Risk Consulting, Kathmandu, Nepal | Dec 2022 – Dec 2024*  
+- Led actuarial valuations of employee benefits under IAS 19 standards.  
+- Advised clients on designing benefit plans aligned with Nepalese labor regulations.
 
-- Applying machine learning to enhance traditional actuarial models
-- Developing predictive models for mortality and longevity risk
-- Exploring innovative approaches to insurance pricing and reserving
-- Creating interactive tools for risk visualization and communication
+**Secretary**  
+*Actuarial Society of Nepal | Jul 2022 – Jan 2025*  
+- Coordinated workshops and networking events for actuarial professionals.  
+- Represented Nepal in the UNDP-Milliman GAIN global actuarial initiative.
 
-## Professional Philosophy
+**Assistant Lecturer**  
+*Tribhuvan University | Nov 2022 – Dec 2024*  
+- Taught courses in R, Excel, and insurance modeling to undergraduate students.  
+- Developed curricula centered around financial engineering and predictive modeling.
 
-I believe in the power of data to transform decision-making processes and drive innovation. My approach combines rigorous statistical methodology with practical business insights to deliver solutions that are both technically sound and actionable.
+**Consultant**  
+*Ebeema, Kathmandu, Nepal | Jun 2022 – Aug 2023*  
+- Contributed to the launch of Nepal’s digital insurance platform.  
+- Designed user-centric mobile and web interfaces for insurance management.
 
-I am committed to sharing knowledge and contributing to the advancement of both actuarial science and data science through research, teaching, and community engagement.
+**Senior Assistant**  
+*IGI Prudential General Insurance | Oct 2021 – Jun 2022*  
+- Assessed motor and property insurance applications and renewals.  
+- Ensured regulatory compliance and handled policy servicing tasks.
+
+**Intern**  
+*Numeric Mind | Jul 2020 – Dec 2020*  
+- Assisted in clinical data analysis using R and SAS.  
+- Conducted hypothesis testing and data tabulation for research trials.
+
+
+
+## Awards & Certifications
+
+- **R Number Hackathon Winner** – Institute and Faculty of Actuaries (IFoA), 2021  
+- **Certified Data Analyst** – 2023  
 
 ## Contact Me
 
-I'm always interested in collaborating on interesting projects or discussing ideas related to actuarial science and data analytics. Feel free to reach out via [email](mailto:email@example.com) or connect with me on [LinkedIn](https://linkedin.com/in/username).
+I’m open to opportunities and collaboration in the fields of actuarial science, insurance analytics, and risk management.  
+
+📧 Email: [krishnakumarshrestha00@gmail.com](mailto:krishnakumarshrestha00@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/krishnakumarshrestha](https://linkedin.com/in/krishnakumarshrestha)  
+📞 Phone: (615) 713-8605  
+📍 Address: 915 Brown Drive, Murfreesboro, TN 37130
+
